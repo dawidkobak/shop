@@ -1,4 +1,4 @@
-# sklep
+# shop - Vue 2, no backend
 Vue simple e-commerce application with interface in Polish.
 
 ## Project setup
