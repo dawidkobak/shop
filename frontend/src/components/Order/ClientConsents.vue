@@ -1,0 +1,12 @@
+<template>
+  <div class="mt-4">
+    <form-check-box
+      id="cdfAcceptTerms"
+      label="Przeczytałem/am i akceptuję regulamin"
+    ></form-check-box>
+  </div>
+</template>
+
+<script setup>
+import FormCheckBox from "@/components/Order/FormCheckBox.vue";
+</script>

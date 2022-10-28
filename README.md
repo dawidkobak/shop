@@ -1,48 +1,21 @@
-# sklep
-Vue simple e-commerce application with interface in Polish.
+# Shop
 
-## Project setup
+Simple application with interface in Polish.
+
+## Backend
+
+1. Run commands from /backend directory
+
+```
+sbt run
+```
+
+## Frontend
+
+1. Run commands from /frontend directory
 
 ```
 npm install
+
+npm run dev
 ```
-
-### Run mock backend - json server, see: db.json file
-
-```
-npm run backend
-```
-
-### Compiles and hot-reloads frontend for development
-
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Run your unit tests
-
-```
-npm run test:unit
-```
-
-### Unit tests in watch mode
-
-```
-npm run test:watch
-```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,0 +1,109 @@
+<template>
+  <div>
+    <GoogleMap
+      :api-key="apiKey"
+      style="width: 100%; height: 600px"
+      :center="shopLocation"
+      :zoom="13"
+    >
+      <CustomMarker :options="{ position: shopLocation }">
+        <div style="text-align: center">
+          <img src="/logo.svg" width="50" height="50" style="margin-top: 8px" />
+        </div>
+      </CustomMarker>
+      <CustomMarker v-if="showClient" :options="{ position: clientLocation }">
+        <div>
+          <div style="text-align: center" class="h-10 w-10 fill-location-gray">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+              <path
+                d="M384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192H384z"
+              />
+            </svg>
+          </div>
+          <div class="h-5 w-5 fill-white absolute top-2.5 left-2.5">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+              <path
+                d="M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5L575.8 255.5z"
+              />
+            </svg>
+          </div>
+        </div>
+      </CustomMarker>
+
+      <Polyline v-if="routePath.visible" :options="routePath" />
+    </GoogleMap>
+    <button @click="showClientLocation">Pokaż współrzędne klienta</button>
+    <button class="float-right" @click="showRoute">
+      Pokaż drogę do klienta
+    </button>
+    <div>
+      <countdown-timer v-if="showTimer" :fullTime="time" />
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref, onMounted } from "vue";
+import { useRoute } from "vue-router";
+import { GoogleMap, CustomMarker, Polyline } from "vue3-google-map";
+import ClientService from "@/services/ClientService";
+import CountdownTimer from "@/components/Shared/CountdownTimer.vue";
+import axios from "axios";
+const apiKey = "";
+const route = useRoute();
+
+const shopLocation = ref({ lat: 50.09160119196257, lng: 19.951739017193226 });
+const clientLocation = ref({ lat: 50.068521667536636, lng: 19.95388576690215 });
+const showClient = ref(false);
+const showTimer = ref(false);
+const distance = ref(0);
+const time = ref(0);
+const routePath = ref({
+  path: [],
+  geodesic: true,
+  strokeColor: "#00FF3C",
+  strokeOpacity: 1.0,
+  strokeWeight: 4,
+  visible: false,
+});
+
+function showClientLocation() {
+  showClient.value = true;
+}
+
+function showRoute() {
+  showTimer.value = true;
+  routePath.value.visible = true;
+}
+
+async function getClientLocation() {
+  const response = await ClientService.getClientLocation(
+    route.query.city,
+    route.query.street,
+    route.query.streetNumber
+  );
+  clientLocation.value = response.data;
+}
+
+async function getRouteToClient() {
+  const response = await ClientService.getRoute(
+    shopLocation.value,
+    clientLocation.value
+  );
+
+  distance.value = response.data.distance;
+  time.value = response.data.time;
+  routePath.value.path = response.data.steps;
+}
+
+onMounted(async () => {
+  await getClientLocation();
+  await getRouteToClient();
+});
+</script>
+
+<style scoped>
+.colorBg {
+  fill: blue;
+}
+</style>
