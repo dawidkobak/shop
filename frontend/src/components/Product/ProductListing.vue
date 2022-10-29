@@ -34,67 +34,43 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch } from "vue";
+import { ref, onMounted } from "vue";
 import ProductService from "@/services/ProductService";
 import ProductInstance from "@/components/Product/ProductInstance.vue";
 import { computed } from "@vue/reactivity";
+import { useRouter } from "vue-router";
 
-const props = defineProps({
-  page: {
-    type: Number,
-    required: true,
-  },
-  category: {
-    type: String,
-    required: false,
-    default: "",
-  },
-  phrase: {
-    type: String,
-    required: false,
-    default: "",
-  },
-});
+const router = useRouter();
 
 const perPage = 10;
 const products = ref([]);
+const page = ref(1);
+const category = ref("");
+const phrase = ref("");
 const totalProducts = ref(0);
 const hasNextPage = computed(() => {
-  return totalProducts.value > props.page * perPage;
+  return totalProducts.value > page.value * perPage;
 });
 
 onMounted(() => {
   getProducts();
 });
 
-watch(
-  () => props.page,
-  () => {
-    getProducts();
+router.afterEach((to, from) => {
+  if (to.name === "shop" || to.name === "shopView") {
+    page.value = parseInt(to.query.page);
+    category.value = to.query.category;
+    phrase.value = to.query.phrase;
+    getProducts(page.value, category.value, phrase.value);
   }
-);
-watch(
-  () => props.category,
-  () => {
-    getProducts();
-  }
-);
-watch(
-  () => props.phrase,
-  () => {
-    getProducts();
-  }
-);
+});
 
-function getProducts() {
-  ProductService.getProducts(
-    perPage,
-    props.page,
-    props.category,
-    props.phrase
-  ).then((response) => {
-    products.value = response.data;
-    totalProducts.value = parseInt(response.headers["all-products-count"]);
-  });
+function getProducts(page = 1, category = "", phrase = "") {
+  ProductService.getProducts(perPage, page, category, phrase).then(
+    (response) => {
+      products.value = response.data;
+      totalProducts.value = parseInt(response.headers["all-products-count"]);
+    }
+  );
 }
 </script>
