@@ -2,12 +2,26 @@ package models.payment
 
 import play.api.libs.json._
 
-object PaymentType extends Enumeration {
-  type PaymentType = Value
+import scala.collection.Seq
 
-  val cash = Value("Cash")
-  val creditCard = Value("CreditCard")
-  val payU = Value("PayU")
+sealed trait PaymentType
 
-  implicit val paymentTypeFormat: Format[PaymentType] = Json.formatEnum(this)
+object PaymentType {
+
+  case object Cash extends PaymentType
+  case object CreditCard extends PaymentType
+  case object PayU extends PaymentType
+
+  def values: Seq[PaymentType] = Seq(Cash, CreditCard, PayU)
+
+  implicit val paymentTypeFormat: Format[PaymentType] = Format(
+    {
+      case JsString(str) =>
+        values.find(_.toString == str)
+          .map(JsSuccess(_))
+          .getOrElse(JsError(Seq(JsPath -> Seq(JsonValidationError("error.expected.validenumvalue")))))
+      case _ => JsError(Seq(JsPath -> Seq(JsonValidationError("error.expected.enumstring"))))
+    },
+    (value: PaymentType) => JsString(value.toString)
+  )
 }

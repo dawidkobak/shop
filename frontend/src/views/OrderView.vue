@@ -33,7 +33,7 @@ const cartStore = useCartStore();
 const orderStore = useOrderStore();
 
 function handleOrder() {
-  OrderService.createOrder();
+  createOrder();
   router.push({
     name: "orderDelivery",
     query: {
@@ -43,5 +43,32 @@ function handleOrder() {
     },
   });
   cartStore.setCartItems([]);
+}
+
+function createOrder() {
+  const client = {
+    firstName: orderStore.firstName,
+    lastName: orderStore.lastName,
+    email: {
+      address: orderStore.email,
+    },
+    phoneNumber: {
+      number: orderStore.phoneNumber,
+    },
+    address: {
+      city: orderStore.city,
+      street: orderStore.street,
+      streetNumber: parseInt(orderStore.streetNumber),
+      flatNumber: parseInt(orderStore.flatNumber),
+    },
+  };
+  const items = cartStore.cartItems.map((item) => ({
+    productId: item.id,
+    quantity: item.quantity,
+  }));
+  const notes = orderStore.notes;
+  const paymentType = orderStore.paymentType;
+
+  OrderService.createOrder(client, items, notes, paymentType);
 }
 </script>

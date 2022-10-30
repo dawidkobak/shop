@@ -1,12 +1,26 @@
 package models.order
 
-import play.api.libs.json.{Format, Json}
+import play.api.libs.json._
 
-object OrderState extends Enumeration {
-  type OrderState = Value
+import scala.collection.Seq
 
-  val placed = Value("Placed")
-  val inDelivery = Value("InDelivery")
+sealed trait OrderState
 
-  implicit val orderStateFormat: Format[OrderState] = Json.formatEnum(this)
+object OrderState {
+
+  case object Placed extends OrderState
+  case object InDelivery extends OrderState
+
+  def values: Seq[OrderState] = Seq(Placed, InDelivery)
+
+  implicit val orderStateFormat: Format[OrderState] = Format(
+    {
+      case JsString(str) =>
+        values.find(_.toString == str)
+          .map(JsSuccess(_))
+          .getOrElse(JsError(Seq(JsPath -> Seq(JsonValidationError("error.expected.validenumvalue")))))
+      case _ => JsError(Seq(JsPath -> Seq(JsonValidationError("error.expected.enumstring"))))
+    },
+    (value: OrderState) => JsString(value.toString)
+  )
 }

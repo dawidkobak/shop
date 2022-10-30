@@ -10,13 +10,12 @@ const restClient = axios.create({
 });
 
 export default {
-  createOrder() {
+  createOrder(client, items, notes, paymentType) {
     return restClient.post("/order", {
-      params: {
-        city: "city",
-        street: "street",
-        streetNumber: "streetNumber",
-      },
+      client: client,
+      items: items,
+      notes: notes,
+      paymentType: paymentType,
     });
   },
 };

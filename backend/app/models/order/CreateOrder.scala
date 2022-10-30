@@ -1,12 +1,13 @@
 package models.order
 
 import models.client.Client
-import models.payment.PaymentType.PaymentType
+import models.payment.PaymentType
 import play.api.libs.json.{Json, OFormat}
 
 case class CreateOrder(
   client: Client,
-  items: Iterable[OrderItem],
+  items: Seq[OrderItem],
+  notes: Option[String],
   paymentType: PaymentType
 )
 

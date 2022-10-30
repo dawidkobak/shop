@@ -32,14 +32,14 @@ class OrderController @Inject()(val controllerComponents: ControllerComponents) 
     val order = Order(
       _id = new ObjectId(),
       client = Client(
-        name = "Dawid",
+        firstName = "Dawid",
         lastName = "Lastname",
         email = Email("dawid@gmail.com"),
         phoneNumber = PhoneNumber("123 456 789"),
         address = Address(
           city = "Kraków",
-          street = "Biała",
-          streetNumber = 1324,
+          street = Some("Biała"),
+          streetNumber = Some(1324),
           flatNumber = Some(5)
         )
       ),
@@ -57,9 +57,9 @@ class OrderController @Inject()(val controllerComponents: ControllerComponents) 
           quantity = 1
         )
       ),
-      state = OrderState.placed,
-      paymentType = PaymentType.payU,
-      shipmentType = ShipmentType.delivery
+      state = OrderState.Placed,
+      paymentType = PaymentType.PayU,
+      shipmentType = ShipmentType.Delivery
     )
     Ok(Json.toJson(order))
   }

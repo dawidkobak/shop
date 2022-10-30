@@ -6,6 +6,11 @@ import models.shipment.ShipmentType
 import org.mongodb.scala.bson.ObjectId
 import play.api.libs.json.Json
 import play.api.mvc.Results.Created
+import utils.MongoDb
+
+import scala.concurrent.Await
+import scala.concurrent.duration._
+import scala.language.postfixOps
 
 object OrderApiHandler {
   def createOrder(createOrder: CreateOrder) = {
@@ -13,10 +18,13 @@ object OrderApiHandler {
       _id = new ObjectId(),
       client = createOrder.client,
       items = createOrder.items,
-      state = OrderState.placed,
-      paymentType = PaymentType.payU,
-      shipmentType = ShipmentType.delivery
+      notes = createOrder.notes,
+      paymentType = PaymentType.PayU,
+      state = OrderState.Placed,
+      shipmentType = ShipmentType.Delivery
     )
+    val x = MongoDb.ordersCollection.insertOne(order).toFuture()
+    val y = Await.result(x, 5 seconds)
     Created(Json.toJson(order))
   }
 }

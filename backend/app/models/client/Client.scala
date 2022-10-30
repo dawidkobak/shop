@@ -5,7 +5,7 @@ import play.api.libs.json.{Format, Json}
 
 case class Client(
   //id: String,
-  name: String,
+  firstName: String,
   lastName: String,
   email: Email,
   phoneNumber: PhoneNumber,
