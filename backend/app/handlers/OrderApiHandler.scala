@@ -1,11 +1,11 @@
 package handlers
 
 import models.order.{CreateOrder, Order, OrderState}
-import models.payment.PaymentType
 import models.shipment.ShipmentType
 import org.mongodb.scala.bson.ObjectId
+import org.mongodb.scala.model.Filters._
 import play.api.libs.json.Json
-import play.api.mvc.Results.Created
+import play.api.mvc.Results.{Created, NotFound, Ok}
 import utils.MongoDb
 
 import scala.concurrent.Await
@@ -26,5 +26,15 @@ object OrderApiHandler {
     val x = MongoDb.ordersCollection.insertOne(order).toFuture()
     val y = Await.result(x, 5 seconds)
     Created(Json.toJson(order))
+  }
+
+  def getOrder(orderId: String) = {
+    try {
+      val orderFut = MongoDb.ordersCollection.find(equal("_id", new ObjectId(orderId))).first().toFuture()
+      val order = Await.result(orderFut, 5 seconds)
+      Ok(Json.toJson(order))
+    } catch {
+      case _: Exception => NotFound
+    }
   }
 }

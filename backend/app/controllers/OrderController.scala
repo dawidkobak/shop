@@ -28,39 +28,7 @@ class OrderController @Inject()(val controllerComponents: ControllerComponents) 
       }
   }
 
-  def getOrder() = Action {
-    val order = Order(
-      _id = new ObjectId(),
-      client = Client(
-        firstName = "Dawid",
-        lastName = "Lastname",
-        email = Email("dawid@gmail.com"),
-        phoneNumber = PhoneNumber("123 456 789"),
-        address = Address(
-          city = "Kraków",
-          street = Some("Biała"),
-          streetNumber = Some(1324),
-          flatNumber = Some(5)
-        )
-      ),
-      items = Seq(
-        OrderItem(
-          productId = "635e71151ce7966d7df0ed83",
-          quantity = 5
-        ),
-        OrderItem(
-          productId = "635e71151ce7966d7df0ed85",
-          quantity = 2
-        ),
-        OrderItem(
-          productId = "635e71151ce7966d7df0ed87",
-          quantity = 1
-        )
-      ),
-      state = OrderState.Placed,
-      paymentType = PaymentType.PayU,
-      shipmentType = ShipmentType.Delivery
-    )
-    Ok(Json.toJson(order))
+  def getOrder(orderId: String) = Action {
+    handler.getOrder(orderId)
   }
 }

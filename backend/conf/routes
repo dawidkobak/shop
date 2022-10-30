@@ -6,4 +6,4 @@ GET     /client/checkLocation       controllers.ClientController.checkLocation(c
 GET     /client/checkRoute          controllers.ClientController.checkRoute(shopLat: Double, shopLng: Double, clientLat: Double, clientLng: Double)
 
 POST    /order                      controllers.OrderController.createOrder()
-GET     /order                      controllers.OrderController.getOrder()
+GET     /order/:orderId             controllers.OrderController.getOrder(orderId: String)

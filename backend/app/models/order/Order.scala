@@ -18,7 +18,6 @@ case class Order(
 }
 
 object Order {
-
   import models.product.Product._
   implicit val orderFormat: Format[Order] = Json.format[Order]
 }
