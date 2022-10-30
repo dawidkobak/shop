@@ -1,8 +1,7 @@
 package models.order
 
 import play.api.libs.json._
-
-import scala.collection.Seq
+import utils.CodecUtils
 
 sealed trait OrderState
 
@@ -13,14 +12,5 @@ object OrderState {
 
   def values: Seq[OrderState] = Seq(Placed, InDelivery)
 
-  implicit val orderStateFormat: Format[OrderState] = Format(
-    {
-      case JsString(str) =>
-        values.find(_.toString == str)
-          .map(JsSuccess(_))
-          .getOrElse(JsError(Seq(JsPath -> Seq(JsonValidationError("error.expected.validenumvalue")))))
-      case _ => JsError(Seq(JsPath -> Seq(JsonValidationError("error.expected.enumstring"))))
-    },
-    (value: OrderState) => JsString(value.toString)
-  )
+  implicit val orderStateFormat: Format[OrderState] = CodecUtils.generateCodec(values)
 }

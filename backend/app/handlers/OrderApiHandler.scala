@@ -19,7 +19,7 @@ object OrderApiHandler {
       client = createOrder.client,
       items = createOrder.items,
       notes = createOrder.notes,
-      paymentType = PaymentType.PayU,
+      paymentType = createOrder.paymentType,
       state = OrderState.Placed,
       shipmentType = ShipmentType.Delivery
     )
