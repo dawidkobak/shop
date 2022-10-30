@@ -4,3 +4,6 @@ GET     /product                    controllers.ProductController.getProducts(li
 
 GET     /client/checkLocation       controllers.ClientController.checkLocation(city: String ?= "", street: String ?= "", streetNumber: String ?= "")
 GET     /client/checkRoute          controllers.ClientController.checkRoute(shopLat: Double, shopLng: Double, clientLat: Double, clientLng: Double)
+
+POST    /order                      controllers.OrderController.createOrder()
+GET     /order                      controllers.OrderController.getOrder()

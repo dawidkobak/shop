@@ -36,7 +36,7 @@ case class ProductApiHandler() {
     arrayOfProducts.value.collect {
       case product: JsObject =>
         Product(
-          _id = new ObjectId(),
+          _id = new ObjectId(product("_id").as[JsString].value),
           name = product("name").as[JsString].value,
           categories = product("categories").as[JsArray].value.map(_.as[JsString].value).toSeq,
           price = product("price").as[JsNumber].value.toDouble,

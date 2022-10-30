@@ -1,800 +1,1000 @@
 [
   {
-    "id": 27,
+    "_id": "635e71151ce7966d7df0ed83",
     "name": "Truskawki",
-    "categories": ["Owoce"],
+    "categories": [
+      "Owoce"
+    ],
     "price": 5.99,
     "image": "http://localhost:9000/assets/images/0027_truskawka.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 18,
+    "_id": "635e71151ce7966d7df0ed84",
     "name": "Ogórek",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 6.99,
     "image": "http://localhost:9000/assets/images/0018_ogorek.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 63,
+    "_id": "635e71151ce7966d7df0ed85",
     "name": "Czekolada mleczna Milka",
-    "categories": ["Słodycze"],
+    "categories": [
+      "Słodycze"
+    ],
     "price": 3.99,
     "image": "http://localhost:9000/assets/images/0063_czekolada_milka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 42,
+    "_id": "635e71151ce7966d7df0ed86",
     "name": "Bagietka",
-    "categories": ["Pieczywo"],
+    "categories": [
+      "Pieczywo"
+    ],
     "price": 1.69,
     "image": "http://localhost:9000/assets/images/0042_bagietka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 50,
+    "_id": "635e71151ce7966d7df0ed87",
     "name": "Chipsy Chrunchips xcut papryka",
-    "categories": ["Przekąski"],
+    "categories": [
+      "Przekąski"
+    ],
     "price": 6.49,
     "image": "http://localhost:9000/assets/images/0050_chipsy_chrunchips_xcut_paprika.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 68,
+    "_id": "635e71151ce7966d7df0ed88",
     "name": "Jim Beam Red Stag 0,7l",
-    "categories": ["Alkohole"],
+    "categories": [
+      "Alkohole"
+    ],
     "price": 59.99,
     "image": "http://localhost:9000/assets/images/0068_jimbeam_red_stag_07L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 70,
+    "_id": "635e71151ce7966d7df0ed89",
     "name": "Margaryna Kasia",
-    "categories": ["Nabiał"],
+    "categories": [
+      "Nabiał"
+    ],
     "price": 3.29,
     "image": "http://localhost:9000/assets/images/0070_margaryna_kasia.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 79,
+    "_id": "635e71151ce7966d7df0ed8a",
     "name": "Oranżada Hellena 1,25l",
-    "categories": ["Napoje"],
+    "categories": [
+      "Napoje"
+    ],
     "price": 4.09,
     "image": "http://localhost:9000/assets/images/0079_oranzada_hellena.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 2,
+    "_id": "635e71151ce7966d7df0ed8b",
     "name": "Pomidor koktajlowy",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 14.79,
     "image": "http://localhost:9000/assets/images/0002_pomidor_koktajlowy.jpg",
     "description": "Kraj pochodzenia: Hiszpania"
   },
   {
-    "id": 28,
+    "_id": "635e71151ce7966d7df0ed8c",
     "name": "Banany",
-    "categories": ["Owoce"],
+    "categories": [
+      "Owoce"
+    ],
     "price": 3.99,
     "image": "http://localhost:9000/assets/images/0028_banan.jpg",
     "description": "Kraj pochodzenia: Kolumbia"
   },
   {
-    "id": 3,
+    "_id": "635e71151ce7966d7df0ed8d",
     "name": "Ziemniaki",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 1.79,
     "image": "http://localhost:9000/assets/images/0003_ziemniaki_mlode.jpg",
     "description": "Kraj pochodzenia: Polska\nOdmiana: SORAYA"
   },
   {
-    "id": 4,
+    "_id": "635e71151ce7966d7df0ed8e",
     "name": "Seler",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 3.99,
     "image": "http://localhost:9000/assets/images/0004_seler.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 5,
+    "_id": "635e71151ce7966d7df0ed8f",
     "name": "Kalafior",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 5.99,
     "image": "http://localhost:9000/assets/images/0005_kalafior.jpg",
     "description": "Kraj pochodzenia: Hiszpaniahttp://localhost:9000/assets/images/Polska"
   },
   {
-    "id": 6,
+    "_id": "635e71151ce7966d7df0ed90",
     "name": "Rzodkiew",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 1.99,
     "image": "http://localhost:9000/assets/images/0006_rzodkiew.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 7,
+    "_id": "635e71151ce7966d7df0ed91",
     "name": "Marchew",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 2.29,
     "image": "http://localhost:9000/assets/images/0007_marchew.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 8,
+    "_id": "635e71151ce7966d7df0ed92",
     "name": "Papryka czerwona",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 7.99,
     "image": "http://localhost:9000/assets/images/0008_papryka_czerwona.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 9,
+    "_id": "635e71151ce7966d7df0ed93",
     "name": "Cebula",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 2.49,
     "image": "http://localhost:9000/assets/images/0009_cebula.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 10,
+    "_id": "635e71151ce7966d7df0ed94",
     "name": "Czosnek",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 1.79,
     "image": "http://localhost:9000/assets/images/0010_czosnek.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 11,
+    "_id": "635e71151ce7966d7df0ed95",
     "name": "Sałata",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 4.39,
     "image": "http://localhost:9000/assets/images/0011_salata.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 12,
+    "_id": "635e71151ce7966d7df0ed96",
     "name": "Sałata lodowa",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 4.99,
     "image": "http://localhost:9000/assets/images/0012_salata_lodowa.jpg",
     "description": "Kraj pochodzenia: Hiszpania"
   },
   {
-    "id": 13,
+    "_id": "635e71151ce7966d7df0ed97",
     "name": "Kapusta pekińska",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 5.99,
     "image": "http://localhost:9000/assets/images/0013_kapusta_pekinska.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 14,
+    "_id": "635e71151ce7966d7df0ed98",
     "name": "Cukinia",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 7.29,
     "image": "http://localhost:9000/assets/images/0014_cukinia.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 15,
+    "_id": "635e71151ce7966d7df0ed99",
     "name": "Bakłażan",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 8.49,
     "image": "http://localhost:9000/assets/images/0015_baklazan.jpg",
     "description": "Kraj pochodzenia: Hiszpania"
   },
   {
-    "id": 16,
+    "_id": "635e71151ce7966d7df0ed9a",
     "name": "Brokuły",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 10.99,
     "image": "http://localhost:9000/assets/images/0016_brokuly.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 17,
+    "_id": "635e71151ce7966d7df0ed9b",
     "name": "Koper",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 1.39,
     "image": "http://localhost:9000/assets/images/0017_koper.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 19,
+    "_id": "635e71151ce7966d7df0ed9c",
     "name": "Ogórek szklarniowy",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 7.99,
     "image": "http://localhost:9000/assets/images/0019_ogorek_szklarniowy.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 20,
+    "_id": "635e71151ce7966d7df0ed9d",
     "name": "Szczypiorek",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 1.19,
     "image": "http://localhost:9000/assets/images/0020_szczypiorek.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 21,
+    "_id": "635e71151ce7966d7df0ed9e",
     "name": "Fasola",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 3.99,
     "image": "http://localhost:9000/assets/images/0021_fasola.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 22,
+    "_id": "635e71151ce7966d7df0ed9f",
     "name": "Chilli",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 11.99,
     "image": "http://localhost:9000/assets/images/0022_chilli.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 1,
+    "_id": "635e71151ce7966d7df0eda0",
     "name": "Pomidor",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 3.99,
     "image": "http://localhost:9000/assets/images/0001_pomidor.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 23,
+    "_id": "635e71151ce7966d7df0eda1",
     "name": "Jabłka",
-    "categories": ["Owoce"],
+    "categories": [
+      "Owoce"
+    ],
     "price": 1.99,
     "image": "http://localhost:9000/assets/images/0023_jablko.jpg",
     "description": "Kraj pochodzenia: Polska\nOdmiana: Ligol"
   },
   {
-    "id": 24,
+    "_id": "635e71151ce7966d7df0eda2",
     "name": "Gruszki",
-    "categories": ["Owoce"],
+    "categories": [
+      "Owoce"
+    ],
     "price": 2.99,
     "image": "http://localhost:9000/assets/images/0024_gruszka.jpg",
     "description": "Kraj pochodzenia: Polska\nOdmiana: Lukasówka\nKaliber 70-80"
   },
   {
-    "id": 25,
+    "_id": "635e71151ce7966d7df0eda3",
     "name": "Pomarańcze",
-    "categories": ["Owoce"],
+    "categories": [
+      "Owoce"
+    ],
     "price": 4.99,
     "image": "http://localhost:9000/assets/images/0025_pomarancza.jpg",
     "description": "Kraj pochodzenia: Hiszpania\nOdmiana Valencia"
   },
   {
-    "id": 26,
+    "_id": "635e71151ce7966d7df0eda4",
     "name": "Mandarynki",
-    "categories": ["Owoce"],
+    "categories": [
+      "Owoce"
+    ],
     "price": 6.99,
     "image": "http://localhost:9000/assets/images/0026_mandarynki.jpg",
     "description": "Kraj pochodzenia: Hiszpania\nSłodkie i soczyste. Niewielka ilość pestek."
   },
   {
-    "id": 29,
+    "_id": "635e71151ce7966d7df0eda5",
     "name": "Brzoskwinia",
-    "categories": ["Owoce"],
+    "categories": [
+      "Owoce"
+    ],
     "price": 5.99,
     "image": "http://localhost:9000/assets/images/0029_brzoskwinia.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 30,
+    "_id": "635e71151ce7966d7df0eda6",
     "name": "Ananas",
-    "categories": ["Owoce"],
+    "categories": [
+      "Owoce"
+    ],
     "price": 8.99,
     "image": "http://localhost:9000/assets/images/0030_ananas.jpg",
     "description": "Kraj pochodzenia: Kostaryka"
   },
   {
-    "id": 31,
+    "_id": "635e71151ce7966d7df0eda7",
     "name": "Kiwi",
-    "categories": ["Owoce"],
+    "categories": [
+      "Owoce"
+    ],
     "price": 11.49,
     "image": "http://localhost:9000/assets/images/0031_kiwi.jpg",
     "description": "Kraj pochodzenia: Grecja"
   },
   {
-    "id": 32,
+    "_id": "635e71151ce7966d7df0eda8",
     "name": "Grejpfrut",
-    "categories": ["Owoce"],
+    "categories": [
+      "Owoce"
+    ],
     "price": 4.99,
     "image": "http://localhost:9000/assets/images/0032_grejpfrut.jpg",
     "description": "Kraj pochodzenia: Hiszpania"
   },
   {
-    "id": 33,
+    "_id": "635e71151ce7966d7df0eda9",
     "name": "Mango",
-    "categories": ["Owoce"],
+    "categories": [
+      "Owoce"
+    ],
     "price": 8.19,
     "image": "http://localhost:9000/assets/images/0033_mango.jpg",
     "description": "Kraj pochodzenia: Brazylia\nDuże owoce"
   },
   {
-    "id": 34,
+    "_id": "635e71151ce7966d7df0edaa",
     "name": "Limonka",
-    "categories": ["Owoce"],
+    "categories": [
+      "Owoce"
+    ],
     "price": 7.19,
     "image": "http://localhost:9000/assets/images/0034_limonka.jpg",
     "description": "Kraj pochodzenia: Włochy"
   },
   {
-    "id": 35,
+    "_id": "635e71151ce7966d7df0edab",
     "name": "Winogrono białe",
-    "categories": ["Owoce"],
+    "categories": [
+      "Owoce"
+    ],
     "price": 14.99,
     "image": "http://localhost:9000/assets/images/0035_winogrono_biale.jpg",
     "description": "Kraj pochodzenia: Turcja\nBezpestkowe"
   },
   {
-    "id": 36,
+    "_id": "635e71151ce7966d7df0edac",
     "name": "Winogrono czerwone",
-    "categories": ["Owoce"],
+    "categories": [
+      "Owoce"
+    ],
     "price": 15.99,
     "image": "http://localhost:9000/assets/images/0036_winogrono_czerwone.jpg",
     "description": "Kraj pochodzenia: Brazylia\nBezpestkowe"
   },
   {
-    "id": 37,
+    "_id": "635e71151ce7966d7df0edad",
     "name": "Orzechy laskowe",
-    "categories": ["Owoce"],
+    "categories": [
+      "Owoce"
+    ],
     "price": 21.99,
     "image": "http://localhost:9000/assets/images/0037_orzech_laskowy.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 38,
+    "_id": "635e71151ce7966d7df0edae",
     "name": "Orzechy włoskie",
-    "categories": ["Owoce"],
+    "categories": [
+      "Owoce"
+    ],
     "price": 19.99,
     "image": "http://localhost:9000/assets/images/0038_orzech_wloski.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 39,
+    "_id": "635e71151ce7966d7df0edaf",
     "name": "Rukola",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 24.99,
     "image": "http://localhost:9000/assets/images/0039_rukola.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 40,
+    "_id": "635e71151ce7966d7df0edb0",
     "name": "Szpinak",
-    "categories": ["Warzywa"],
+    "categories": [
+      "Warzywa"
+    ],
     "price": 29.99,
     "image": "http://localhost:9000/assets/images/0040_szpinak.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
-    "id": 41,
+    "_id": "635e71151ce7966d7df0edb1",
     "name": "7 up",
-    "categories": ["Napoje"],
+    "categories": [
+      "Napoje"
+    ],
     "price": 6.99,
     "image": "http://localhost:9000/assets/images/0041_7up_15L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 43,
+    "_id": "635e71151ce7966d7df0edb2",
     "name": "Baton 3Bit",
-    "categories": ["Słodycze"],
+    "categories": [
+      "Słodycze"
+    ],
     "price": 1.99,
     "image": "http://localhost:9000/assets/images/0043_baton_3bit.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 44,
+    "_id": "635e71151ce7966d7df0edb3",
     "name": "Bułka czosnkowa",
-    "categories": ["Pieczywo"],
+    "categories": [
+      "Pieczywo"
+    ],
     "price": 1.99,
     "image": "http://localhost:9000/assets/images/0044_bulka_czosnkowa.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 45,
+    "_id": "635e71151ce7966d7df0edb4",
     "name": "Bułka śniadaniowa",
-    "categories": ["Pieczywo"],
+    "categories": [
+      "Pieczywo"
+    ],
     "price": 0.99,
     "image": "http://localhost:9000/assets/images/0045_bulka_sniadaniowa.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 46,
+    "_id": "635e71151ce7966d7df0edb5",
     "name": "Bułka śniadaniowa",
-    "categories": ["Pieczywo"],
+    "categories": [
+      "Pieczywo"
+    ],
     "price": 0.89,
     "image": "http://localhost:9000/assets/images/0046_bulka2.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 47,
+    "_id": "635e71151ce7966d7df0edb6",
     "name": "Cechini Muszyna 1,5l",
-    "categories": ["Napoje"],
+    "categories": [
+      "Napoje"
+    ],
     "price": 2.19,
     "image": "http://localhost:9000/assets/images/0047_cechini_muszyna_15L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 48,
+    "_id": "635e71151ce7966d7df0edb7",
     "name": "Chipsy Chrunchips papryka",
-    "categories": ["Przekąski"],
+    "categories": [
+      "Przekąski"
+    ],
     "price": 5.99,
     "image": "http://localhost:9000/assets/images/0048_chipsy_chrunchips_paprika.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 49,
+    "_id": "635e71151ce7966d7df0edb8",
     "name": "Chipsy Chrunchips sticks ketchup",
-    "categories": ["Przekąski"],
+    "categories": [
+      "Przekąski"
+    ],
     "price": 4.49,
     "image": "http://localhost:9000/assets/images/0049_chipsy_chrunchips_sticks_ketchup.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 51,
+    "_id": "635e71151ce7966d7df0edb9",
     "name": "Chipsy Chrunchips xcut ser cebula",
-    "categories": ["Przekąski"],
+    "categories": [
+      "Przekąski"
+    ],
     "price": 6.49,
     "image": "http://localhost:9000/assets/images/0051_chipsy_chrunchips_xcut_ser_cebula.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 52,
+    "_id": "635e71151ce7966d7df0edba",
     "name": "Chipsy Monser munch papryka",
-    "categories": ["Przekąski"],
+    "categories": [
+      "Przekąski"
+    ],
     "price": 4.99,
     "image": "http://localhost:9000/assets/images/0052_chipsy_monster_munch_paprika.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 53,
+    "_id": "635e71151ce7966d7df0edbb",
     "name": "Chipsy Monser munch",
-    "categories": ["Przekąski"],
+    "categories": [
+      "Przekąski"
+    ],
     "price": 4.99,
     "image": "http://localhost:9000/assets/images/0053_chipsy_monster_munch.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 54,
+    "_id": "635e71151ce7966d7df0edbc",
     "name": "Bułka grahamka",
-    "categories": ["Pieczywo"],
+    "categories": [
+      "Pieczywo"
+    ],
     "price": 0.69,
     "image": "http://localhost:9000/assets/images/0054_bulka_grahamka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 55,
+    "_id": "635e71151ce7966d7df0edbd",
     "name": "Chleb rodzinny",
-    "categories": ["Pieczywo"],
+    "categories": [
+      "Pieczywo"
+    ],
     "price": 4.39,
     "image": "http://localhost:9000/assets/images/0055_chleb_rodzinny.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 56,
+    "_id": "635e71151ce7966d7df0edbe",
     "name": "Chleb słonecznikowy",
-    "categories": ["Pieczywo"],
+    "categories": [
+      "Pieczywo"
+    ],
     "price": 2.55,
     "image": "http://localhost:9000/assets/images/0056_chleb_slonecznikowy.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 57,
+    "_id": "635e71151ce7966d7df0edbf",
     "name": "Bułka orkiszowa",
-    "categories": ["Pieczywo"],
+    "categories": [
+      "Pieczywo"
+    ],
     "price": 1.55,
     "image": "http://localhost:9000/assets/images/0057_bulka_orkiszowa.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 58,
+    "_id": "635e71151ce7966d7df0edc0",
     "name": "Cisowianka niegazowana 1,5l",
-    "categories": ["Napoje"],
+    "categories": [
+      "Napoje"
+    ],
     "price": 1.79,
     "image": "http://localhost:9000/assets/images/0058_cisowianka_15L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 59,
+    "_id": "635e71151ce7966d7df0edc1",
     "name": "Coca-cola 0,5l",
-    "categories": ["Napoje"],
+    "categories": [
+      "Napoje"
+    ],
     "price": 3.79,
     "image": "http://localhost:9000/assets/images/0059_coca-cola_05L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 60,
+    "_id": "635e71151ce7966d7df0edc2",
     "name": "Coca-cola 0,33l",
-    "categories": ["Napoje"],
+    "categories": [
+      "Napoje"
+    ],
     "price": 2.39,
     "image": "http://localhost:9000/assets/images/0060_coca-cola_puszka_mala.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 61,
+    "_id": "635e71151ce7966d7df0edc3",
     "name": "Czekolada biała Milka",
-    "categories": ["Słodycze"],
+    "categories": [
+      "Słodycze"
+    ],
     "price": 4.29,
     "image": "http://localhost:9000/assets/images/0061_czekolada_biala_milka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 62,
+    "_id": "635e71151ce7966d7df0edc4",
     "name": "Czekolada gorzka Wedel",
-    "categories": ["Słodycze"],
+    "categories": [
+      "Słodycze"
+    ],
     "price": 3.59,
     "image": "http://localhost:9000/assets/images/0062_czekolada_gorzka_wedel.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 64,
+    "_id": "635e71151ce7966d7df0edc5",
     "name": "Kinder czekolada",
-    "categories": ["Słodycze"],
+    "categories": [
+      "Słodycze"
+    ],
     "price": 4.99,
     "image": "http://localhost:9000/assets/images/0064_czekoladki_kinder.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 65,
+    "_id": "635e71151ce7966d7df0edc6",
     "name": "Margaryna Delma",
-    "categories": ["Nabiał"],
+    "categories": [
+      "Nabiał"
+    ],
     "price": 4.99,
     "image": "http://localhost:9000/assets/images/0065_margaryna_delma.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 66,
+    "_id": "635e71151ce7966d7df0edc7",
     "name": "Flora Pro-Active",
-    "categories": ["Nabiał"],
+    "categories": [
+      "Nabiał"
+    ],
     "price": 14.99,
     "image": "http://localhost:9000/assets/images/0066_flora_proactive.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 67,
+    "_id": "635e71151ce7966d7df0edc8",
     "name": "Jajka 20 szt.",
-    "categories": ["Nabiał"],
+    "categories": [
+      "Nabiał"
+    ],
     "price": 15.69,
     "image": "http://localhost:9000/assets/images/0067_jajka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 69,
+    "_id": "635e71151ce7966d7df0edc9",
     "name": "Kinder Bueno white",
-    "categories": ["Słodycze"],
+    "categories": [
+      "Słodycze"
+    ],
     "price": 2.99,
     "image": "http://localhost:9000/assets/images/0069_kinder_bueno_white.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 71,
+    "_id": "635e71151ce7966d7df0edca",
     "name": "Margaryna Palma",
-    "categories": ["Nabiał"],
+    "categories": [
+      "Nabiał"
+    ],
     "price": 2.75,
     "image": "http://localhost:9000/assets/images/0071_margaryna_palma.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 72,
+    "_id": "635e71151ce7966d7df0edcb",
     "name": "Masło Pasłęcki miks",
-    "categories": ["Nabiał"],
+    "categories": [
+      "Nabiał"
+    ],
     "price": 6.99,
     "image": "http://localhost:9000/assets/images/0072_maslo_miks_paslek.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 73,
+    "_id": "635e71151ce7966d7df0edcc",
     "name": "Masło Mlekovita Polskie",
-    "categories": ["Nabiał"],
+    "categories": [
+      "Nabiał"
+    ],
     "price": 7.49,
     "image": "http://localhost:9000/assets/images/0073_maslo_mlekowita.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 74,
+    "_id": "635e71151ce7966d7df0edcd",
     "name": "Merci",
-    "categories": ["Słodycze"],
+    "categories": [
+      "Słodycze"
+    ],
     "price": 17.49,
     "image": "http://localhost:9000/assets/images/0074_merci.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 75,
+    "_id": "635e71151ce7966d7df0edce",
     "name": "Mirinda 1l",
-    "categories": ["Napoje"],
+    "categories": [
+      "Napoje"
+    ],
     "price": 4.49,
     "image": "http://localhost:9000/assets/images/0075_mirinda_1L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 76,
+    "_id": "635e71151ce7966d7df0edcf",
     "name": "Muszynianka 1,5l",
-    "categories": ["Napoje"],
+    "categories": [
+      "Napoje"
+    ],
     "price": 2.69,
     "image": "http://localhost:9000/assets/images/0076_muszynianka_15L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 77,
+    "_id": "635e71151ce7966d7df0edd0",
     "name": "Nałęczowianka gazowana 1,5l",
-    "categories": ["Napoje"],
+    "categories": [
+      "Napoje"
+    ],
     "price": 2.19,
     "image": "http://localhost:9000/assets/images/0077_naleczowianka_15L_1.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 78,
+    "_id": "635e71151ce7966d7df0edd1",
     "name": "Nałęczowianka niegazowana 1,5l",
-    "categories": ["Napoje"],
+    "categories": [
+      "Napoje"
+    ],
     "price": 2.09,
     "image": "http://localhost:9000/assets/images/0078_naleczowianka_15L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 80,
+    "_id": "635e71151ce7966d7df0edd2",
     "name": "Pepsi Max 0,33l",
-    "categories": ["Napoje"],
+    "categories": [
+      "Napoje"
+    ],
     "price": 2.09,
     "image": "http://localhost:9000/assets/images/0080_pepsi_max_puszka_mala.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 81,
+    "_id": "635e71151ce7966d7df0edd3",
     "name": "Pepsi 0,33l",
-    "categories": ["Napoje"],
+    "categories": [
+      "Napoje"
+    ],
     "price": 2.09,
     "image": "http://localhost:9000/assets/images/0081_pepsi_puszka_mala.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 82,
+    "_id": "635e71151ce7966d7df0edd4",
     "name": "Piwo Carlsberg 0,5l",
-    "categories": ["Alkohole"],
+    "categories": [
+      "Alkohole"
+    ],
     "price": 3.79,
     "image": "http://localhost:9000/assets/images/0082_piwo_carlsberg_puszka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 83,
+    "_id": "635e71151ce7966d7df0edd5",
     "name": "Piwo Harnaś 0,5l",
-    "categories": ["Alkohole"],
+    "categories": [
+      "Alkohole"
+    ],
     "price": 3.19,
     "image": "http://localhost:9000/assets/images/0083_piwo_harnas_puszka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 84,
+    "_id": "635e71151ce7966d7df0edd6",
     "name": "Piwo Tatra 0,5l",
-    "categories": ["Alkohole"],
+    "categories": [
+      "Alkohole"
+    ],
     "price": 3.29,
     "image": "http://localhost:9000/assets/images/0084_piwo_tatra_puszka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 85,
+    "_id": "635e71151ce7966d7df0edd7",
     "name": "Piwo Tyskie 0,5l",
-    "categories": ["Alkohole"],
+    "categories": [
+      "Alkohole"
+    ],
     "price": 3.39,
     "image": "http://localhost:9000/assets/images/0085_piwo_tyskie_puszka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 86,
+    "_id": "635e71151ce7966d7df0edd8",
     "name": "Piwo Zatecky 0,5l",
-    "categories": ["Alkohole"],
+    "categories": [
+      "Alkohole"
+    ],
     "price": 3.39,
     "image": "http://localhost:9000/assets/images/0086-piwo_zatecky_puszka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 87,
+    "_id": "635e71151ce7966d7df0edd9",
     "name": "Piwo Żubr 0,5l",
-    "categories": ["Alkohole"],
+    "categories": [
+      "Alkohole"
+    ],
     "price": 3.29,
     "image": "http://localhost:9000/assets/images/0087_piwo_zubr_puszka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 88,
+    "_id": "635e71151ce7966d7df0edda",
     "name": "Półbagietka",
-    "categories": ["Pieczywo"],
+    "categories": [
+      "Pieczywo"
+    ],
     "price": 0.99,
     "image": "http://localhost:9000/assets/images/0088_polbagietka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 89,
+    "_id": "635e71151ce7966d7df0eddb",
     "name": "Chipsy Pringles papryka",
-    "categories": ["Przekąski"],
+    "categories": [
+      "Przekąski"
+    ],
     "price": 7.99,
     "image": "http://localhost:9000/assets/images/0089_pringles_paprika.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 90,
+    "_id": "635e71151ce7966d7df0eddc",
     "name": "Whisky Jameson 0,7l",
-    "categories": ["Alkohole"],
+    "categories": [
+      "Alkohole"
+    ],
     "price": 64.99,
     "image": "http://localhost:9000/assets/images/0090_whisky-jameson_07L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 91,
+    "_id": "635e71151ce7966d7df0eddd",
     "name": "Rafaello",
-    "categories": ["Słodycze"],
+    "categories": [
+      "Słodycze"
+    ],
     "price": 12.59,
     "image": "http://localhost:9000/assets/images/0091_refaello.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 92,
+    "_id": "635e71151ce7966d7df0edde",
     "name": "Sprite 0,5l",
-    "categories": ["Napoje"],
+    "categories": [
+      "Napoje"
+    ],
     "price": 3.59,
     "image": "http://localhost:9000/assets/images/0092_sprite_05L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 93,
+    "_id": "635e71151ce7966d7df0eddf",
     "name": "Toffifee",
-    "categories": ["Słodycze"],
+    "categories": [
+      "Słodycze"
+    ],
     "price": 11.99,
     "image": "http://localhost:9000/assets/images/0093_toffifee_24.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 94,
+    "_id": "635e71151ce7966d7df0ede0",
     "name": "Whisky Ballantines Finest 1l",
-    "categories": ["Alkohole"],
+    "categories": [
+      "Alkohole"
+    ],
     "price": 54.99,
     "image": "http://localhost:9000/assets/images/0094_whisky_ballantines_finest_1L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 95,
+    "_id": "635e71151ce7966d7df0ede1",
     "name": "Wódka Wyborowa 0,7l",
-    "categories": ["Alkohole"],
+    "categories": [
+      "Alkohole"
+    ],
     "price": 39.99,
     "image": "http://localhost:9000/assets/images/0095_wodka_wyborowa_07.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 96,
+    "_id": "635e71151ce7966d7df0ede2",
     "name": "Żywiec Zdrój mocno gazowany 0,5l",
-    "categories": ["Napoje"],
+    "categories": [
+      "Napoje"
+    ],
     "price": 1.99,
     "image": "http://localhost:9000/assets/images/0096_zywiec_zdroj_mocny_gaz_05.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 97,
+    "_id": "635e71151ce7966d7df0ede3",
     "name": "Żywiec Zdrój mocno gazowany 0,5l",
-    "categories": ["Napoje"],
+    "categories": [
+      "Napoje"
+    ],
     "price": 1.89,
     "image": "http://localhost:9000/assets/images/0097_zywiec_zdroj_mocny_gaz_05L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 98,
+    "_id": "635e71151ce7966d7df0ede4",
     "name": "Żywiec Zdrój niegazowany 0,5l",
-    "categories": ["Napoje"],
+    "categories": [
+      "Napoje"
+    ],
     "price": 1.49,
     "image": "http://localhost:9000/assets/images/0098_zywiec_zdroj_niegazowany_05L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 99,
+    "_id": "635e71151ce7966d7df0ede5",
     "name": "Wino Carlo Rossi Rose",
-    "categories": ["Alkohole"],
+    "categories": [
+      "Alkohole"
+    ],
     "price": 22.99,
     "image": "http://localhost:9000/assets/images/0099_carlo_rossi_rose.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "id": 100,
+    "_id": "635e71151ce7966d7df0ede6",
     "name": "Wino Carlo Rossi Ruby Mascato",
-    "categories": ["Alkohole"],
+    "categories": [
+      "Alkohole"
+    ],
     "price": 23.99,
     "image": "http://localhost:9000/assets/images/0100_carlo_rossi_ruby_moscato.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
