@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="top-0 left-0 w-full h-full bg-white">
+    <div class="h-full bg-white">
       <div
         class="flex flex-nowrap h-full px-2 mx-auto border-b border-solid border-brand-gray-1"
       >

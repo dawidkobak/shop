@@ -1,5 +1,5 @@
 <template>
-  <div class="sm:h-5/6 h-4/6 md:max-h-7/12 overflow-y-scroll">
+  <div class="overflow-auto listingMiddle">
     <ul>
       <li v-for="cartItem in cartItems" :key="cartItem.id">
         <div
@@ -65,4 +65,8 @@ function removeItemFromCart(id) {
 }
 </script>
 
-<style></style>
+<style scoped>
+.listingMiddle {
+  flex: 1;
+}
+</style>

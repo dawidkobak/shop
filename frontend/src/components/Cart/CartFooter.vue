@@ -1,7 +1,7 @@
 <template>
   <div
     v-if="isFooterVisible"
-    class="absolute bottom-3 border-t border-gray-700 pt-1 w-11/12 pr-2"
+    class="mx-auto border-t border-gray-700 pt-3 w-full pr-2 cartFooter"
   >
     <div class="text-xl font-bold text-gray-900 mb-10">
       <p class="float-left">Podsuma:</p>
@@ -37,3 +37,9 @@ function handleOrder() {
   router.push({ name: "order" });
 }
 </script>
+
+<style scoped>
+.cartFooter {
+  flex: 0 0 auto;
+}
+</style>

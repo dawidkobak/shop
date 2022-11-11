@@ -8,9 +8,11 @@
       <div
         class="absolute right-0 w-full h-full max-w-xs bg-white shadow-lg rounded-lg p-4"
       >
-        <cart-header />
-        <product-listing-cart />
-        <cart-footer />
+        <div class="flex flex-col h-full">
+          <cart-header />
+          <product-listing-cart />
+          <cart-footer />
+        </div>
       </div>
     </div>
   </MyModal>
