@@ -4,6 +4,7 @@
   </label>
   <input
     :type="props.type"
+    :required="props.obligatory"
     :value="props.value"
     :placeholder="props.placeholder"
     class="pl-2.5 pr-2.5 pt-1 pb-1 focus:outline-none border border-solid border-brand-gray-3 rounded-3xl w-full"
@@ -32,6 +33,11 @@ const props = defineProps({
     type: String,
     required: false,
     default: "",
+  },
+  obligatory: {
+    type: Boolean,
+    required: false,
+    default: false,
   },
 });
 
