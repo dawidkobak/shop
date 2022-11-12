@@ -1,6 +1,6 @@
 <template>
-  <div id="timer" class="w-full">
-    <div v-if="timePassed <= TIME_LIMIT" class="base-timer">
+  <div id="timer">
+    <div v-if="timePassed <= TIME_LIMIT" class="base-timer mx-auto">
       <svg
         class="base-timer__svg"
         viewBox="0 0 100 100"
@@ -60,15 +60,13 @@ const remainingPathColor = computed(() => {
 
 const currentStrokeDasharray = computed(() => {
   return (
-    parseInt((remainingTimeInPercent(timeLeft()) * FULL_DASH_ARRAY) / 100, 10) +
-    " 283"
+    parseInt((remainingTimeInPercent() * FULL_DASH_ARRAY) / 100, 10) + " 283"
   );
 });
 
 onMounted(() => {
   timerInterval.value = setInterval(() => {
     timePassed.value += 1;
-    setCircleDasharray();
 
     if (timeLeft() <= 0) {
       clearInterval(timerInterval.value);
@@ -89,20 +87,6 @@ function formatTime(time) {
   return `${minutes} min`;
 }
 
-function calculateTimeFraction() {
-  const rawTimeFraction = timeLeft() / TIME_LIMIT;
-  return -(1 / TIME_LIMIT) * (1 - rawTimeFraction);
-}
-
-function setCircleDasharray() {
-  const circleDasharray = `${(
-    calculateTimeFraction() * FULL_DASH_ARRAY.value
-  ).toFixed(0)} 283`;
-  document
-    .getElementById("base-timer-path-remaining")
-    .setAttribute("stroke-dasharray", circleDasharray);
-}
-
 function remainingTimeInPercent() {
   return 100 - (timePassed.value / TIME_LIMIT) * 100;
 }
@@ -110,7 +94,6 @@ function remainingTimeInPercent() {
 
 <style scoped>
 .base-timer {
-  position: absolute;
   width: 300px;
   height: 300px;
 }

@@ -59,14 +59,25 @@ function createOrder() {
       flatNumber: parseInt(orderStore.flatNumber),
     },
   };
+
   const items = cartStore.cartItems.map((item) => ({
-    productId: item.id,
+    product: {
+      _id: item.id,
+      name: item.name,
+      price: item.price,
+      image: item.image,
+      description: item.description,
+      categories: [],
+    },
     quantity: item.quantity,
   }));
-  const notes = orderStore.notes;
-  const paymentType = orderStore.paymentType;
 
-  OrderService.createOrder(client, items, notes, paymentType);
+  OrderService.createOrder(
+    client,
+    items,
+    orderStore.notes,
+    orderStore.paymentType
+  );
 }
 </script>
 

@@ -36,7 +36,7 @@
     <button class="float-right" @click="showRoute">
       Pokaż drogę do klienta
     </button>
-    <div>
+    <div class="relative">
       <countdown-timer v-if="showTimer" :fullTime="time" />
     </div>
   </div>
