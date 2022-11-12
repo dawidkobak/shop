@@ -20,9 +20,10 @@ const routes = [
     component: OrderView,
   },
   {
-    path: "/orderDelivery",
+    path: "/orderDelivery/:orderId",
     name: "orderDelivery",
     component: OrderDelivery,
+    props: true,
   },
 ];
 

@@ -1,6 +1,7 @@
-package models.order
+package models.order.create
 
 import models.client.Client
+import models.order.OrderItem
 import models.payment.PaymentType
 import play.api.libs.json.{Json, OFormat}
 

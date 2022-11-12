@@ -1,9 +1,10 @@
 package models.order
 
+import models.product.Product
 import play.api.libs.json.{Format, Json}
 
 case class OrderItem(
-  productId: String,
+  product: Product,
   quantity: Int
 )
 

@@ -58,7 +58,12 @@ onMounted(() => {
 
 router.afterEach((to, from) => {
   if (to.name === "shop" || to.name === "shopView") {
-    page.value = parseInt(to.query.page);
+    const parsedPage = parseInt(to.query.page);
+    if (isNaN(parsedPage)) {
+      page.value = 1;
+    } else {
+      page.value = parsedPage;
+    }
     category.value = to.query.category;
     phrase.value = to.query.phrase;
     getProducts(page.value, category.value, phrase.value);

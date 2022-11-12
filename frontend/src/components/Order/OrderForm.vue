@@ -1,7 +1,7 @@
 <template>
   <form @submit.prevent="handleOrder">
-    <client-data-form />
-    <payment-form />
+    <client-data />
+    <payment-type />
     <client-consents />
     <div class="mt-10">
       <p class="text-2xl">
@@ -16,8 +16,8 @@
 </template>
 
 <script setup>
-import ClientDataForm from "@/components/Order/ClientDataForm.vue";
-import PaymentForm from "@/components/Order/PaymentForm.vue";
+import ClientData from "@/components/Order/ClientData.vue";
+import PaymentType from "@/components/Order/PaymentType.vue";
 import ClientConsents from "@/components/Order/ClientConsents.vue";
 import ActionButton from "@/components/Shared/ActionButton.vue";
 import { useRouter } from "vue-router";
@@ -29,14 +29,12 @@ const router = useRouter();
 const cartStore = useCartStore();
 const orderStore = useOrderStore();
 
-function handleOrder() {
-  createOrder();
+async function handleOrder() {
+  const order = await createOrder();
   router.push({
     name: "orderDelivery",
-    query: {
-      city: orderStore.city,
-      street: orderStore.street,
-      streetNumber: orderStore.streetNumber,
+    params: {
+      orderId: order.data._id,
     },
   });
   cartStore.setCartItems([]);
@@ -72,7 +70,7 @@ function createOrder() {
     quantity: item.quantity,
   }));
 
-  OrderService.createOrder(
+  return OrderService.createOrder(
     client,
     items,
     orderStore.notes,

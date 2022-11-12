@@ -2,7 +2,7 @@
   <div>
     <GoogleMap
       :api-key="apiKey"
-      style="width: 100%; height: 600px"
+      class="w-full xl:h-150 h-82"
       :center="shopLocation"
       :zoom="13"
     >
@@ -39,6 +39,7 @@
     <div class="relative">
       <countdown-timer v-if="showTimer" :fullTime="time" />
     </div>
+    <order-summary v-if="orderDetails.client" :data="orderDetails" />
   </div>
 </template>
 
@@ -47,10 +48,18 @@ import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
 import { GoogleMap, CustomMarker, Polyline } from "vue3-google-map";
 import ClientService from "@/services/ClientService";
+import OrderService from "@/services/OrderService";
 import CountdownTimer from "@/components/Shared/CountdownTimer.vue";
-import axios from "axios";
+import OrderSummary from "@/components/Order/OrderSummary.vue";
 const apiKey = "";
 const route = useRoute();
+
+const props = defineProps({
+  orderId: {
+    type: String,
+    required: true,
+  },
+});
 
 const shopLocation = ref({ lat: 50.09160119196257, lng: 19.951739017193226 });
 const clientLocation = ref({ lat: 50.068521667536636, lng: 19.95388576690215 });
@@ -66,6 +75,7 @@ const routePath = ref({
   strokeWeight: 4,
   visible: false,
 });
+const orderDetails = ref([]);
 
 function showClientLocation() {
   showClient.value = true;
@@ -96,7 +106,13 @@ async function getRouteToClient() {
   routePath.value.path = response.data.steps;
 }
 
+async function getOrderDetails() {
+  const response = await OrderService.getOrder(props.orderId);
+  orderDetails.value = response.data;
+}
+
 onMounted(async () => {
+  await getOrderDetails();
   await getClientLocation();
   await getRouteToClient();
 });

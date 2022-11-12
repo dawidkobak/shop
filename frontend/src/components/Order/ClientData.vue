@@ -60,7 +60,7 @@
 </template>
 
 <script setup>
-import FormInput from "@/components/Order/FormInput.vue";
+import FormInput from "@/components/Shared/FormInput.vue";
 import { useOrderStore } from "@/store/OrderStore";
 
 const orderStore = useOrderStore();

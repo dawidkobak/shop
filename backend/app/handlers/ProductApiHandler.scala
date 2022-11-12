@@ -12,7 +12,7 @@ import scala.concurrent.duration.Duration
 
 case class ProductApiHandler() {
 
-  val products: Seq[Product] = readProductsFromMongo()
+  val products: Seq[Product] = readProductsFromFile()
 
   def get(
     limit: Int,

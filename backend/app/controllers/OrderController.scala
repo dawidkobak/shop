@@ -3,7 +3,8 @@ package controllers
 import handlers.OrderApiHandler
 import models.client.Client
 import models.contact.{Address, Email, PhoneNumber}
-import models.order.{CreateOrder, Order, OrderItem, OrderState}
+import models.order.create.CreateOrder
+import models.order.{Order, OrderItem, OrderState}
 import models.payment.PaymentType
 import models.shipment.ShipmentType
 import org.mongodb.scala.bson.ObjectId

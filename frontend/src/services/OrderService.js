@@ -18,4 +18,8 @@ export default {
       paymentType: paymentType,
     });
   },
+
+  getOrder(id) {
+    return restClient.get(`/order/${id}`);
+  },
 };

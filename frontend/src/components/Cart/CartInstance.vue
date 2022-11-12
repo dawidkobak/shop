@@ -22,7 +22,7 @@
 import MyModal from "@/components/Shared/MyModal.vue";
 import CartHeader from "@/components/Cart/CartHeader.vue";
 import CartFooter from "@/components/Cart/CartFooter.vue";
-import ProductListingCart from "@/components/Product/ProductListingCart.vue";
+import ProductListingCart from "@/components/Cart/ProductListingCart.vue";
 import { useCartStore } from "@/store/CartStore";
 
 const cartStore = useCartStore();

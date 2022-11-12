@@ -8,5 +8,5 @@
 </template>
 
 <script setup>
-import FormCheckBox from "@/components/Order/FormCheckBox.vue";
+import FormCheckBox from "@/components/Shared/FormCheckBox.vue";
 </script>
