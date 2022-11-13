@@ -32,4 +32,8 @@ class OrderController @Inject()(val controllerComponents: ControllerComponents) 
   def getOrder(orderId: String) = Action {
     handler.getOrder(orderId)
   }
+
+  def getOrders() = Action {
+    handler.getOrders()
+  }
 }

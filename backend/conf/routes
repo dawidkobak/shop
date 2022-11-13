@@ -7,3 +7,4 @@ GET     /client/checkRoute          controllers.ClientController.checkRoute(shop
 
 POST    /order                      controllers.OrderController.createOrder()
 GET     /order/:orderId             controllers.OrderController.getOrder(orderId: String)
+GET     /order                      controllers.OrderController.getOrders()

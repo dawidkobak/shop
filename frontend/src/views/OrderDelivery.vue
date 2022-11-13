@@ -44,7 +44,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref, onMounted, computed } from "vue";
 import { useRoute } from "vue-router";
 import { GoogleMap, CustomMarker, Polyline } from "vue3-google-map";
 import ClientService from "@/services/ClientService";

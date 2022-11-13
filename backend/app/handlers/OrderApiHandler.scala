@@ -25,7 +25,7 @@ object OrderApiHandler {
       items = createOrder.items,
       notes = createOrder.notes,
       paymentType = createOrder.paymentType,
-      state = OrderState.Placed,
+      state = OrderState.Accepted,
       shipmentType = ShipmentType.Delivery
     )
     //val x = MongoDb.ordersCollection.insertOne(order).toFuture()
@@ -43,5 +43,9 @@ object OrderApiHandler {
     } catch {
       case _: Exception => NotFound
     }
+  }
+
+  def getOrders() = {
+    Ok(Json.toJson(orders))
   }
 }
