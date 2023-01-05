@@ -20,7 +20,7 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import ProductListingOrder from "@/components/Order/ProductListingOrder.vue";
 
 const props = defineProps({

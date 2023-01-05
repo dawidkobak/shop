@@ -12,7 +12,7 @@
   />
 </template>
 
-<script setup>
+<script lang="ts" setup>
 const props = defineProps({
   label: {
     type: String,

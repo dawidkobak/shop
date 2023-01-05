@@ -18,7 +18,7 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import router from "@/router";
 import ActionButton from "../Shared/ActionButton.vue";
 

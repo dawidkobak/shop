@@ -29,57 +29,57 @@ export const useOrderStore = defineStore({
     paymentType: (state) => state._paymentType,
   },
   actions: {
-    setFristName(firstName) {
+    setFristName(firstName: string) {
       localStorage.setItem("firstName", firstName);
       this._firstName = firstName;
     },
 
-    setLastName(lastName) {
+    setLastName(lastName: string) {
       localStorage.setItem("lastName", lastName);
       this._lastName = lastName;
     },
 
-    setStreet(street) {
+    setStreet(street: string) {
       localStorage.setItem("street", street);
       this._street = street;
     },
 
-    setStreetNumber(streetNumber) {
+    setStreetNumber(streetNumber: string) {
       localStorage.setItem("streetNumber", streetNumber);
       this._streetNumber = streetNumber;
     },
 
-    setPostalCode(postalCode) {
+    setPostalCode(postalCode: string) {
       localStorage.setItem("postalCode", postalCode);
       this._postalCode = postalCode;
     },
 
-    setCity(city) {
+    setCity(city: string) {
       localStorage.setItem("city", city);
       this._city = city;
     },
 
-    setFlatNumber(flatNumber) {
+    setFlatNumber(flatNumber: string) {
       localStorage.setItem("flatNumber", flatNumber);
       this._flatNumber = flatNumber;
     },
 
-    setPhoneNumber(phoneNumber) {
+    setPhoneNumber(phoneNumber: string) {
       localStorage.setItem("phoneNumber", phoneNumber);
       this._phoneNumber = phoneNumber;
     },
 
-    setEmail(email) {
+    setEmail(email: string) {
       localStorage.setItem("email", email);
       this._email = email;
     },
 
-    setNotes(notes) {
+    setNotes(notes: string) {
       localStorage.setItem("notes", notes);
       this._notes = notes;
     },
 
-    setPaymentType(paymentType) {
+    setPaymentType(paymentType: string) {
       localStorage.setItem("paymentType", paymentType);
       this._paymentType = paymentType;
     },

@@ -59,7 +59,7 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import FormInput from "@/components/Shared/FormInput.vue";
 import { useOrderStore } from "@/store/OrderStore";
 

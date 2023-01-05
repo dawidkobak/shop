@@ -25,7 +25,7 @@
   </table>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 const props = defineProps({
   items: {
     type: Object,

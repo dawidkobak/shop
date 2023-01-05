@@ -33,7 +33,7 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { ref, onMounted } from "vue";
 import ProductService from "@/services/ProductService";
 import ProductInstance from "@/components/Product/ProductInstance.vue";

@@ -47,7 +47,7 @@
   </header>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import ProductSearchForm from "./ProductSearchForm.vue";
 import LogoShop from "./LogoShop.vue";
 import CartIcon from "../Cart/CartIcon.vue";

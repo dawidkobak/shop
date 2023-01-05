@@ -7,6 +7,6 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import FormCheckBox from "@/components/Shared/FormCheckBox.vue";
 </script>

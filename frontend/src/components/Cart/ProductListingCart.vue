@@ -44,7 +44,7 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import ActionButton from "@/components/Shared/ActionButton.vue";
 import { useCartStore } from "@/store/CartStore";
 import { reactive } from "vue";

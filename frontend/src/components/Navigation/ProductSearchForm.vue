@@ -18,7 +18,7 @@
   </form>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { ref } from "vue";
 import ActionButton from "../Shared/ActionButton.vue";
 import TextInput from "../Shared/TextInput.vue";

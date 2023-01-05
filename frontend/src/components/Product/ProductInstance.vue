@@ -50,7 +50,7 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import ProductDetails from "@/components/Product/ProductDetails.vue";
 import { ref } from "vue";
 import { computed } from "@vue/reactivity";

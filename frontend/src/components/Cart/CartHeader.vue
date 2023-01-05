@@ -11,7 +11,7 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { useCartStore } from "@/store/CartStore";
 
 const cartStore = useCartStore();

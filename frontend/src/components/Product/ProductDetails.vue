@@ -59,7 +59,7 @@
   </my-modal>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import MyModal from "@/components/Shared/MyModal.vue";
 import { computed } from "@vue/reactivity";
 import { useCartStore } from "@/store/CartStore";

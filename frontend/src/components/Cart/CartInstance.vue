@@ -18,7 +18,7 @@
   </MyModal>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import MyModal from "@/components/Shared/MyModal.vue";
 import CartHeader from "@/components/Cart/CartHeader.vue";
 import CartFooter from "@/components/Cart/CartFooter.vue";

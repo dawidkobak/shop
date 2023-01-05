@@ -15,7 +15,7 @@
   </form>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import ClientData from "@/components/Order/ClientData.vue";
 import PaymentType from "@/components/Order/PaymentType.vue";
 import ClientConsents from "@/components/Order/ClientConsents.vue";
