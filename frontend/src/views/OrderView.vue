@@ -7,6 +7,6 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import OrderForm from "@/components/Order/OrderForm.vue";
 </script>

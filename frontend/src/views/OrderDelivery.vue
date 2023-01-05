@@ -43,7 +43,7 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { ref, onMounted, computed } from "vue";
 import { useRoute } from "vue-router";
 import { GoogleMap, CustomMarker, Polyline } from "vue3-google-map";

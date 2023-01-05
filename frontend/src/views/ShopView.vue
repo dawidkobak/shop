@@ -5,7 +5,7 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import ProductFiltersSidebar from "@/components/Product/ProductFiltersSidebar.vue";
 import ProductListing from "@/components/Product/ProductListing.vue";
 </script>
