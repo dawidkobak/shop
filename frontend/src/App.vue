@@ -6,7 +6,7 @@
   </div>
 </template>
 
-<script setup>
-import MainNav from "./components/Navigation/MainNav.vue";
-import CartInstance from "./components/Cart/CartInstance.vue";
+<script lang="ts" setup>
+import MainNav from "@/components/Navigation/MainNav.vue";
+import CartInstance from "@/components/Cart/CartInstance.vue";
 </script>
