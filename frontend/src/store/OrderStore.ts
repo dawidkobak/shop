@@ -1,87 +1,96 @@
 import { defineStore } from "pinia";
+import { ref } from "vue";
 
-export const useOrderStore = defineStore({
-  id: "OrderStore",
-  state: () => ({
-    _firstName: localStorage.getItem("firstName") ?? "",
-    _lastName: localStorage.getItem("lastName") ?? "",
-    _street: localStorage.getItem("street") ?? "",
-    _streetNumber: localStorage.getItem("streetNumber") ?? "",
-    _postalCode: localStorage.getItem("postalCode") ?? "",
-    _city: localStorage.getItem("city") ?? "",
-    _flatNumber: localStorage.getItem("flatNumber") ?? "",
-    _phoneNumber: localStorage.getItem("phoneNumber") ?? "",
-    _email: localStorage.getItem("email") ?? "",
-    _notes: localStorage.getItem("notes") ?? "",
-    _paymentType: localStorage.getItem("paymentType" ?? ""),
-  }),
-  getters: {
-    firstName: (state) => state._firstName,
-    lastName: (state) => state._lastName,
-    street: (state) => state._street,
-    streetNumber: (state) => state._streetNumber,
-    postalCode: (state) => state._postalCode,
-    city: (state) => state._city,
-    flatNumber: (state) => state._flatNumber,
-    phoneNumber: (state) => state._phoneNumber,
-    email: (state) => state._email,
-    notes: (state) => state._notes,
-    paymentType: (state) => state._paymentType,
-  },
-  actions: {
-    setFristName(firstName: string) {
-      localStorage.setItem("firstName", firstName);
-      this._firstName = firstName;
-    },
+export const useOrderStore = defineStore("orders", () => {
+  const firstName = ref(localStorage.getItem("firstName") ?? "");
+  const lastName = ref(localStorage.getItem("lastName") ?? "");
+  const street = ref(localStorage.getItem("street") ?? "");
+  const streetNumber = ref(localStorage.getItem("streetNumber") ?? "");
+  const postalCode = ref(localStorage.getItem("postalCode") ?? "");
+  const city = ref(localStorage.getItem("city") ?? "");
+  const flatNumber = ref(localStorage.getItem("flatNumber") ?? "");
+  const phoneNumber = ref(localStorage.getItem("phoneNumber") ?? "");
+  const email = ref(localStorage.getItem("email") ?? "");
+  const notes = ref(localStorage.getItem("notes") ?? "");
+  const paymentType = ref(localStorage.getItem("paymentType") ?? "");
 
-    setLastName(lastName: string) {
-      localStorage.setItem("lastName", lastName);
-      this._lastName = lastName;
-    },
+  const setFristName = (value: string) => {
+    localStorage.setItem("firstName", value);
+    firstName.value = value;
+  };
 
-    setStreet(street: string) {
-      localStorage.setItem("street", street);
-      this._street = street;
-    },
+  const setLastName = (value: string) => {
+    localStorage.setItem("lastName", value);
+    lastName.value = value;
+  };
 
-    setStreetNumber(streetNumber: string) {
-      localStorage.setItem("streetNumber", streetNumber);
-      this._streetNumber = streetNumber;
-    },
+  const setStreet = (value: string) => {
+    localStorage.setItem("street", value);
+    street.value = value;
+  };
 
-    setPostalCode(postalCode: string) {
-      localStorage.setItem("postalCode", postalCode);
-      this._postalCode = postalCode;
-    },
+  const setStreetNumber = (value: string) => {
+    localStorage.setItem("streetNumber", value);
+    streetNumber.value = value;
+  };
 
-    setCity(city: string) {
-      localStorage.setItem("city", city);
-      this._city = city;
-    },
+  const setPostalCode = (value: string) => {
+    localStorage.setItem("postalCode", value);
+    postalCode.value = value;
+  };
 
-    setFlatNumber(flatNumber: string) {
-      localStorage.setItem("flatNumber", flatNumber);
-      this._flatNumber = flatNumber;
-    },
+  const setCity = (value: string) => {
+    localStorage.setItem("city", value);
+    city.value = value;
+  };
 
-    setPhoneNumber(phoneNumber: string) {
-      localStorage.setItem("phoneNumber", phoneNumber);
-      this._phoneNumber = phoneNumber;
-    },
+  const setFlatNumber = (value: string) => {
+    localStorage.setItem("flatNumber", value);
+    flatNumber.value = value;
+  };
 
-    setEmail(email: string) {
-      localStorage.setItem("email", email);
-      this._email = email;
-    },
+  const setPhoneNumber = (value: string) => {
+    localStorage.setItem("phoneNumber", value);
+    phoneNumber.value = value;
+  };
 
-    setNotes(notes: string) {
-      localStorage.setItem("notes", notes);
-      this._notes = notes;
-    },
+  const setEmail = (value: string) => {
+    localStorage.setItem("email", value);
+    email.value = value;
+  };
 
-    setPaymentType(paymentType: string) {
-      localStorage.setItem("paymentType", paymentType);
-      this._paymentType = paymentType;
-    },
-  },
+  const setNotes = (value: string) => {
+    localStorage.setItem("notes", value);
+    notes.value = value;
+  };
+
+  const setPaymentType = (value: string) => {
+    localStorage.setItem("paymentType", value);
+    paymentType.value = value;
+  };
+
+  return {
+    firstName,
+    lastName,
+    street,
+    streetNumber,
+    postalCode,
+    city,
+    flatNumber,
+    phoneNumber,
+    email,
+    notes,
+    paymentType,
+    setFristName,
+    setLastName,
+    setStreet,
+    setStreetNumber,
+    setPostalCode,
+    setCity,
+    setFlatNumber,
+    setPhoneNumber,
+    setEmail,
+    setNotes,
+    setPaymentType,
+  };
 });

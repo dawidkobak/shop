@@ -10,7 +10,7 @@ import utils.MongoDb
 import scala.concurrent.Await
 import scala.concurrent.duration.Duration
 
-case class ProductApiHandler() {
+object ProductApiHandler {
 
   val products: Seq[Product] = readProductsFromFile()
 
@@ -28,6 +28,10 @@ case class ProductApiHandler() {
     val toReturn = filtered.slice(limit * (page - 1), limit * page)
 
     Ok(Json.toJson(toReturn)).withHeaders("all-products-count" -> filtered.size.toString)
+  }
+
+  def getAll: Result = {
+    Ok(Json.toJson(products)).withHeaders("X-Results-Count" -> products.size.toString)
   }
 
   private def readProductsFromFile(): Seq[Product] = {

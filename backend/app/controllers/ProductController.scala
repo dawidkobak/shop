@@ -12,6 +12,11 @@ class ProductController @Inject()(
 
   def getProducts(limit: Int, page: Int, categories: String, query: String) = Action {
     implicit request: Request[AnyContent] =>
-      ProductApiHandler().get(limit, page, categories, query)
+      ProductApiHandler.get(limit, page, categories, query)
+  }
+
+  def getAllProducts() = Action {
+    implicit request: Request[AnyContent] =>
+      ProductApiHandler.getAll
   }
 }

@@ -1,80 +1,88 @@
 import { defineStore } from "pinia";
+import { computed, ref } from "vue";
 
-export const useCartStore = defineStore({
-  id: "CartStore",
+import type { CartItem } from "@/store/types";
+import type { Product } from "@/services/types";
 
-  state: () => ({
-    _cartItems: localStorage.getItem("cartItems") ?? [],
-    _isCartVisible: localStorage.getItem("isCartVisible") ?? false,
-  }),
+export const useCartStore = defineStore("cart", () => {
+  const cartItems = ref<CartItem[]>([]);
+  const isCartVisible = ref(false);
 
-  getters: {
-    cartItems: (state) => state._cartItems,
-    isCartVisible: (state) => state._isCartVisible,
-    itemsInCart: (state) => {
-      return state._cartItems.length;
-    },
-    cartTotal: (state) => {
-      let sum = 0;
-      state._cartItems.forEach((item) => (sum += item.price * item.quantity));
-      return sum.toFixed(2);
-    },
-  },
+  const itemsInCart = computed(() => {
+    return cartItems.value.length;
+  });
 
-  actions: {
-    setCartItems(cartItems) {
-      //localStorage.setItem("cartItems", JSON.stringify(cartItems));
-      this._cartItems = cartItems;
-    },
+  const cartTotal = computed(() => {
+    let sum = 0;
+    cartItems.value.forEach((item) => (sum += item.price * item.quantity));
+    return sum.toFixed(2);
+  });
 
-    setCartVisibility(isCartVisible) {
-      localStorage.setItem("isCartVisible", isCartVisible);
-      this._isCartVisible = isCartVisible;
-    },
+  const setCartItems = (items: CartItem[]) => {
+    cartItems.value = items;
+  };
 
-    addProductToCart(product) {
-      const alreadyInCart = this._cartItems.findIndex(
-        (item) => item.id === product.id
-      );
-      if (alreadyInCart >= 0) {
-        this._cartItems[alreadyInCart].quantity++;
-      } else {
-        this._cartItems.push({
-          ...product,
-          quantity: 1,
-        });
-      }
-    },
+  const setCartVisibility = (isVisible: boolean) => {
+    isCartVisible.value = isVisible;
+  };
 
-    removeProductFromCart(productId) {
-      const productToRemoveIndex = this._cartItems.findIndex(
-        (item) => item.id === productId
-      );
-      if (productToRemoveIndex >= 0) {
-        this._cartItems.splice(productToRemoveIndex, 1);
-      }
-    },
+  const addProductToCart = (product: Product) => {
+    const alreadyInCart = cartItems.value.findIndex(
+      (item) => item._id === product._id
+    );
+    if (alreadyInCart >= 0) {
+      cartItems.value[alreadyInCart].quantity++;
+    } else {
+      cartItems.value.push({
+        ...product,
+        quantity: 1,
+      });
+    }
+  };
 
-    incrementProductQuantity(productId) {
-      const product = this._cartItems.find((item) => item.id === productId);
-      if (product) {
-        product.quantity++;
-      }
-    },
+  const removeProductFromCart = (productId: string) => {
+    const productToRemoveIndex = cartItems.value.findIndex(
+      (item) => item._id === productId
+    );
+    if (productToRemoveIndex >= 0) {
+      cartItems.value.splice(productToRemoveIndex, 1);
+    }
+  };
 
-    decrementProductQuantity(productId) {
-      const product = this._cartItems.find((item) => item.id === productId);
-      if (product.quantity >= 2) {
-        product.quantity--;
-      }
-    },
+  const incrementProductQuantity = (productId: string) => {
+    const product = cartItems.value.find((item) => item._id === productId);
+    if (product) {
+      product.quantity++;
+    }
+  };
 
-    showCart() {
-      this._isCartVisible = true;
-    },
+  const decrementProductQuantity = (productId: string) => {
+    const product = cartItems.value.find((item) => item._id === productId);
+    if (product && product.quantity >= 2) {
+      product.quantity--;
+    }
+  };
 
-    closeCart() {
-      this._isCartVisible = false;
-    },
-  },
+  const showCart = () => {
+    isCartVisible.value = true;
+  };
+
+  const closeCart = () => {
+    isCartVisible.value = false;
+  };
+
+  return {
+    cartItems,
+    isCartVisible,
+    itemsInCart,
+    cartTotal,
+    setCartItems,
+    setCartVisibility,
+    addProductToCart,
+    removeProductFromCart,
+    incrementProductQuantity,
+    decrementProductQuantity,
+    showCart,
+    closeCart,
+  };
 });
