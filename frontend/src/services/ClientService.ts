@@ -9,25 +9,29 @@ const restClient = axios.create({
   },
 });
 
-export default {
-  getClientLocation(city, street, streetNumber) {
-    return restClient.get("/client/checkLocation", {
-      params: {
-        city: city,
-        street: street,
-        streetNumber: streetNumber,
-      },
-    });
-  },
-
-  getRoute(shopCoordinates, clientCoordinates) {
-    return restClient.get("/client/checkRoute", {
-      params: {
-        shopLat: shopCoordinates.lat,
-        shopLng: shopCoordinates.lng,
-        clientLat: clientCoordinates.lat,
-        clientLng: clientCoordinates.lng,
-      },
-    });
-  },
+const getClientLocation = (
+  city: string,
+  street: string,
+  streetNumber: string
+) => {
+  return restClient.get("/client/checkLocation", {
+    params: {
+      city: city,
+      street: street,
+      streetNumber: streetNumber,
+    },
+  });
 };
+
+const getRoute = (shopCoordinates, clientCoordinates) => {
+  return restClient.get("/client/checkRoute", {
+    params: {
+      shopLat: shopCoordinates.lat,
+      shopLng: shopCoordinates.lng,
+      clientLat: clientCoordinates.lat,
+      clientLng: clientCoordinates.lng,
+    },
+  });
+};
+
+export default { getClientLocation, getRoute };

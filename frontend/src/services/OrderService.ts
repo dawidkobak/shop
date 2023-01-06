@@ -19,7 +19,7 @@ export default {
     });
   },
 
-  getOrder(id) {
+  getOrder(id: string) {
     return restClient.get(`/order/${id}`);
   },
 };

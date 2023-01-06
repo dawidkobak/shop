@@ -1,5 +1,7 @@
 import axios from "axios";
 
+import type { Product } from "@/services/types";
+
 const restClient = axios.create({
   baseURL: "http://localhost:9000",
   withCredentials: false,
@@ -9,15 +11,24 @@ const restClient = axios.create({
   },
 });
 
-export default {
-  getProducts(perPage, page, category, phrase) {
-    return restClient.get("/product", {
-      params: {
-        perPage: perPage,
-        page: page,
-        categories: category,
-        q: phrase,
-      },
-    });
-  },
+const getProducts = (
+  perPage: string,
+  page: string,
+  category: string,
+  phrase: string
+) => {
+  return restClient.get<Product[]>("/product", {
+    params: {
+      perPage: perPage,
+      page: page,
+      categories: category,
+      q: phrase,
+    },
+  });
 };
+
+const getAllProducts = () => {
+  return restClient.get<Product[]>("/allProducts");
+};
+
+export { getProducts, getAllProducts };

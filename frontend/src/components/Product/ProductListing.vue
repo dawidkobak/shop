@@ -35,12 +35,15 @@
 
 <script lang="ts" setup>
 import { ref, onMounted } from "vue";
-import ProductService from "@/services/ProductService";
-import ProductInstance from "@/components/Product/ProductInstance.vue";
 import { computed } from "@vue/reactivity";
 import { useRouter } from "vue-router";
 
+import { getProducts as getProductsService } from "@/services/ProductService";
+import ProductInstance from "@/components/Product/ProductInstance.vue";
+import { useProductsStore } from "@/store/products";
+
 const router = useRouter();
+const productsStore = useProductsStore();
 
 const perPage = 10;
 const products = ref([]);
@@ -55,6 +58,7 @@ const hasNextPage = computed(() => {
 onMounted(() => {
   getProducts();
 });
+onMounted(productsStore.FETCH_PRODUCTS);
 
 router.afterEach((to, from) => {
   if (to.name === "shop" || to.name === "shopView") {
@@ -71,11 +75,9 @@ router.afterEach((to, from) => {
 });
 
 function getProducts(page = 1, category = "", phrase = "") {
-  ProductService.getProducts(perPage, page, category, phrase).then(
-    (response) => {
-      products.value = response.data;
-      totalProducts.value = parseInt(response.headers["all-products-count"]);
-    }
-  );
+  getProductsService(perPage, page, category, phrase).then((response) => {
+    products.value = response.data;
+    totalProducts.value = parseInt(response.headers["all-products-count"]);
+  });
 }
 </script>
