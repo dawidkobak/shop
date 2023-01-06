@@ -11,7 +11,7 @@
     <div
       class="float-left xl:my-2 mobile:w-16 sm:w-32 md:w-36 xl:w-48 mobile:pt-0.5"
     >
-      <text-input v-model="productName" placeholder="Szukaj produktu" />
+      <text-input v-model="term" placeholder="Szukaj produktu" />
     </div>
 
     <action-button text="Szukaj" type="searchForm" />
@@ -22,14 +22,13 @@
 import { ref } from "vue";
 import ActionButton from "../Shared/ActionButton.vue";
 import TextInput from "../Shared/TextInput.vue";
-import router from "@/router";
+import { useProductsStore } from "@/store/products";
 
-const productName = ref("");
+const productsStore = useProductsStore();
+
+const term = ref("");
 
 function searchForProducts() {
-  router.push({
-    name: "shopView",
-    query: { page: 1, category: "", phrase: productName.value },
-  });
+  productsStore.CHANGE_TERM_FOR_QUERY(term.value);
 }
 </script>

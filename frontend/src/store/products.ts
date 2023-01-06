@@ -6,12 +6,24 @@ import { getAllProducts } from "@/services/ProductService";
 
 export const useProductsStore = defineStore("products", () => {
   const products = ref<Product[]>([]);
+  const totalProducts = ref(0);
   const selectedCategory = ref("");
   const termForQuery = ref("");
 
   const FETCH_PRODUCTS = async () => {
     const receivedProducts = await getAllProducts();
+    totalProducts.value = parseInt(receivedProducts.headers["X-Results-Count"]);
     products.value = receivedProducts.data;
+  };
+
+  const CHANGE_SELECTED_CATEGORY = (category: string) => {
+    selectedCategory.value = category;
+    termForQuery.value = "";
+  };
+
+  const CHANGE_TERM_FOR_QUERY = (term: string) => {
+    termForQuery.value = term;
+    selectedCategory.value = "";
   };
 
   const FILTERED_PRODUCTS = computed(() => {
@@ -35,5 +47,11 @@ export const useProductsStore = defineStore("products", () => {
       .includes(termForQuery.value.toLowerCase());
   };
 
-  return { FILTERED_PRODUCTS, FETCH_PRODUCTS };
+  return {
+    FILTERED_PRODUCTS,
+    FETCH_PRODUCTS,
+    CHANGE_SELECTED_CATEGORY,
+    CHANGE_TERM_FOR_QUERY,
+    totalProducts,
+  };
 });

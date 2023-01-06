@@ -62,10 +62,10 @@ function createOrder() {
     product: {
       _id: item._id,
       name: item.name,
+      categories: [],
       price: item.price,
       image: item.image,
       description: item.description,
-      categories: [],
     },
     quantity: item.quantity,
   }));
