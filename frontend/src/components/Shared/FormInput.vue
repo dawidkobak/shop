@@ -43,8 +43,9 @@ const props = defineProps({
 
 const emit = defineEmits(["updatedInput"]);
 
-function handleInput($event) {
-  emit("updatedInput", $event.target.value);
+function handleInput($event: Event) {
+  const target = $event.target as HTMLInputElement;
+  emit("updatedInput", target.value);
 }
 </script>
 

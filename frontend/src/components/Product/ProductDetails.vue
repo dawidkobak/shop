@@ -63,10 +63,12 @@
 import MyModal from "@/components/Shared/MyModal.vue";
 import { computed } from "@vue/reactivity";
 import { useCartStore } from "@/store/CartStore";
+import type { PropType } from "vue";
+import type { Product } from "@/services/types";
 
 const props = defineProps({
   productObject: {
-    type: Object,
+    type: Object as PropType<Product>,
     required: true,
   },
   isVisible: {
@@ -85,17 +87,13 @@ const cartStore = useCartStore();
 
 const product = computed(() => {
   const item = cartStore.cartItems.find(
-    (element) => element.id === props.productObject._id
+    (element) => element._id === props.productObject._id
   );
   if (item) {
     return item;
   } else {
     return {
-      id: props.productObject._id,
-      name: props.productObject.name,
-      price: props.productObject.price,
-      image: props.productObject.image,
-      description: props.productObject.description,
+      ...props.productObject,
       quantity: 0,
     };
   }
@@ -107,9 +105,9 @@ function addToCart() {
 
 function removeOneFromCart() {
   if (product.value.quantity > 1) {
-    cartStore.decrementProductQuantity(product.value.id);
+    cartStore.decrementProductQuantity(product.value._id);
   } else {
-    cartStore.removeProductFromCart(product.value.id);
+    cartStore.removeProductFromCart(product.value._id);
   }
 }
 </script>

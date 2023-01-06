@@ -76,12 +76,7 @@ const product = computed(() => {
     return item;
   } else {
     return {
-      _id: props.productObject._id,
-      name: props.productObject.name,
-      categories: props.productObject.categories,
-      price: props.productObject.price,
-      image: props.productObject.image,
-      description: props.productObject.description,
+      ...props.productObject,
       quantity: 0,
     };
   }

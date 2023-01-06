@@ -1,6 +1,6 @@
 <template>
   <div id="timer">
-    <div v-if="timePassed <= TIME_LIMIT" class="base-timer mx-auto">
+    <div v-if="timePassed <= props.fullTime" class="base-timer mx-auto">
       <svg
         class="base-timer__svg"
         viewBox="0 0 100 100"
@@ -44,9 +44,8 @@ const props = defineProps({
 });
 
 const FULL_DASH_ARRAY = 283;
-const TIME_LIMIT = parseInt(props.fullTime);
 const timePassed = ref(0);
-const timerInterval = ref(null);
+const timerInterval = ref<ReturnType<typeof setInterval>>();
 
 const remainingPathColor = computed(() => {
   if (remainingTimeInPercent() > 50) {
@@ -59,9 +58,7 @@ const remainingPathColor = computed(() => {
 });
 
 const currentStrokeDasharray = computed(() => {
-  return (
-    parseInt((remainingTimeInPercent() * FULL_DASH_ARRAY) / 100, 10) + " 283"
-  );
+  return (remainingTimeInPercent() * FULL_DASH_ARRAY) / 100 + " 283";
 });
 
 onMounted(() => {
@@ -79,16 +76,16 @@ onBeforeUnmount(() => {
 });
 
 function timeLeft() {
-  return TIME_LIMIT - timePassed.value;
+  return props.fullTime - timePassed.value;
 }
 
-function formatTime(time) {
+function formatTime(time: number) {
   const minutes = Math.floor(time / 60);
   return `${minutes} min`;
 }
 
 function remainingTimeInPercent() {
-  return 100 - (timePassed.value / TIME_LIMIT) * 100;
+  return 100 - (timePassed.value / props.fullTime) * 100;
 }
 </script>
 

@@ -6,7 +6,7 @@
     <div class="mt-10">
       <p class="text-2xl">
         Wartość koszyka:
-        <span class="text-3xl">{{ cartStore.cartTotal }} zł</span>
+        <span class="text-3xl">{{ cartStore.cartTotal.toFixed(2) }} zł</span>
       </p>
     </div>
     <div v-if="cartStore.cartTotal > 0" class="mt-4 mb-8">
@@ -60,7 +60,7 @@ function createOrder() {
 
   const items = cartStore.cartItems.map((item) => ({
     product: {
-      _id: item.id,
+      _id: item._id,
       name: item.name,
       price: item.price,
       image: item.image,

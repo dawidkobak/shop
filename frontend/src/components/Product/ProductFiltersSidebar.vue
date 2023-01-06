@@ -34,7 +34,7 @@ const categories = [
   "Przekąski",
 ];
 
-function changeCategory(category) {
+function changeCategory(category: string) {
   if (category == "Wszystkie produkty") {
     router.push({
       name: "shopView",

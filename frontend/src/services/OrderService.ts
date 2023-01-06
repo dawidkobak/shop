@@ -1,5 +1,8 @@
 import axios from "axios";
 
+import type { Client, OrderItem } from "@/services/types";
+import type { CartItem } from "@/store/types";
+
 const restClient = axios.create({
   baseURL: "http://localhost:9000",
   withCredentials: false,
@@ -10,7 +13,12 @@ const restClient = axios.create({
 });
 
 export default {
-  createOrder(client, items, notes, paymentType) {
+  createOrder(
+    client: Client,
+    items: CartItem[],
+    notes: string,
+    paymentType: string
+  ) {
     return restClient.post("/order", {
       client: client,
       items: items,

@@ -1,5 +1,7 @@
 import axios from "axios";
 
+import type { LatLng } from "@/services/types";
+
 const restClient = axios.create({
   baseURL: "http://localhost:9000",
   withCredentials: false,
@@ -23,7 +25,7 @@ const getClientLocation = (
   });
 };
 
-const getRoute = (shopCoordinates, clientCoordinates) => {
+const getRoute = (shopCoordinates: LatLng, clientCoordinates: LatLng) => {
   return restClient.get("/client/checkRoute", {
     params: {
       shopLat: shopCoordinates.lat,
