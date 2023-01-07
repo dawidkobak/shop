@@ -21,8 +21,8 @@ import PaymentType from "@/components/Order/PaymentType.vue";
 import ClientConsents from "@/components/Order/ClientConsents.vue";
 import ActionButton from "@/components/Shared/ActionButton.vue";
 import { useRouter } from "vue-router";
-import { useCartStore } from "@/store/CartStore";
-import { useOrderStore } from "@/store/OrderStore";
+import { useCartStore } from "@/stores/cart";
+import { useOrderStore } from "@/stores/orders";
 import OrderService from "@/services/OrderService";
 
 const router = useRouter();

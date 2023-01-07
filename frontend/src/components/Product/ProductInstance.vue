@@ -56,7 +56,7 @@ import { computed } from "@vue/reactivity";
 
 import type { Product } from "@/services/types";
 import ProductDetails from "@/components/Product/ProductDetails.vue";
-import { useCartStore } from "@/store/CartStore";
+import { useCartStore } from "@/stores/cart";
 
 const props = defineProps({
   productObject: {

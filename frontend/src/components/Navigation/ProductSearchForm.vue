@@ -22,7 +22,7 @@
 import { ref } from "vue";
 import ActionButton from "../Shared/ActionButton.vue";
 import TextInput from "../Shared/TextInput.vue";
-import { useProductsStore } from "@/store/products";
+import { useProductsStore } from "@/stores/products";
 
 const productsStore = useProductsStore();
 

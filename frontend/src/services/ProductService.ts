@@ -11,24 +11,8 @@ const restClient = axios.create({
   },
 });
 
-const getProducts = (
-  perPage: string,
-  page: string,
-  category: string,
-  phrase: string
-) => {
-  return restClient.get<Product[]>("/product", {
-    params: {
-      perPage: perPage,
-      page: page,
-      categories: category,
-      q: phrase,
-    },
-  });
-};
-
 const getAllProducts = () => {
-  return restClient.get<Product[]>("/allProducts");
+  return restClient.get<Product[]>("/product");
 };
 
-export { getProducts, getAllProducts };
+export { getAllProducts };

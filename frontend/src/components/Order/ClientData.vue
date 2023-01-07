@@ -61,7 +61,7 @@
 
 <script lang="ts" setup>
 import FormInput from "@/components/Shared/FormInput.vue";
-import { useOrderStore } from "@/store/OrderStore";
+import { useOrderStore } from "@/stores/orders";
 
 const orderStore = useOrderStore();
 </script>

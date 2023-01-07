@@ -12,7 +12,7 @@
 </template>
 
 <script lang="ts" setup>
-import { useCartStore } from "@/store/CartStore";
+import { useCartStore } from "@/stores/cart";
 
 const cartStore = useCartStore();
 

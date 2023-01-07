@@ -39,18 +39,26 @@ import { computed } from "@vue/reactivity";
 import { useRoute } from "vue-router";
 
 import ProductInstance from "@/components/Product/ProductInstance.vue";
-import { useProductsStore } from "@/store/products";
+import { useProductsStore } from "@/stores/products";
 
 const route = useRoute();
 const productsStore = useProductsStore();
 
 const perPage = 10;
-const page = ref(1);
+const page = computed(() => {
+  return parseInt(route.query.page as string) || 1;
+});
 const hasNextPage = computed(() => {
-  return productsStore.totalProducts > page.value * perPage;
+  return FILTERED_PRODUCTS.value.length > page.value * perPage;
 });
 
 onMounted(productsStore.FETCH_PRODUCTS);
 
-const displayedProducts = computed(() => productsStore.FILTERED_PRODUCTS);
+const FILTERED_PRODUCTS = computed(() => productsStore.FILTERED_PRODUCTS);
+
+const displayedProducts = computed(() => {
+  const firstJobIndex = (page.value - 1) * perPage;
+  const lastJobIndex = page.value * perPage;
+  return FILTERED_PRODUCTS.value.slice(firstJobIndex, lastJobIndex);
+});
 </script>

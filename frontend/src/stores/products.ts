@@ -12,7 +12,7 @@ export const useProductsStore = defineStore("products", () => {
 
   const FETCH_PRODUCTS = async () => {
     const receivedProducts = await getAllProducts();
-    totalProducts.value = parseInt(receivedProducts.headers["X-Results-Count"]);
+    totalProducts.value = parseInt(receivedProducts.headers["x-results-count"]);
     products.value = receivedProducts.data;
   };
 

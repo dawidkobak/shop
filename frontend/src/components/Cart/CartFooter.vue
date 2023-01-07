@@ -18,7 +18,7 @@
 
 <script lang="ts" setup>
 import ActionButton from "@/components/Shared/ActionButton.vue";
-import { useCartStore } from "@/store/CartStore";
+import { useCartStore } from "@/stores/cart";
 import { useRouter, useRoute } from "vue-router";
 import { computed } from "vue";
 

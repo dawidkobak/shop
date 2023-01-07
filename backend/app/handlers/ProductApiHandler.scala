@@ -14,23 +14,7 @@ object ProductApiHandler {
 
   val products: Seq[Product] = readProductsFromFile()
 
-  def get(
-    limit: Int,
-    page: Int,
-    categories: String,
-    query: String
-  ): Result = {
-
-    val filtered = products
-      .filter(p => if (categories.nonEmpty) p.categories.contains(categories) else true)
-      .filter(p => if (query.nonEmpty) p.name.toLowerCase.contains(query.toLowerCase) else true)
-
-    val toReturn = filtered.slice(limit * (page - 1), limit * page)
-
-    Ok(Json.toJson(toReturn)).withHeaders("all-products-count" -> filtered.size.toString)
-  }
-
-  def getAll: Result = {
+  def getProducts: Result = {
     Ok(Json.toJson(products)).withHeaders("X-Results-Count" -> products.size.toString)
   }
 

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 import type { Client, OrderItem } from "@/services/types";
-import type { CartItem } from "@/store/types";
+import type { CartItem } from "@/stores/types";
 
 const restClient = axios.create({
   baseURL: "http://localhost:9000",

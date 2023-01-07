@@ -62,7 +62,7 @@
 <script lang="ts" setup>
 import MyModal from "@/components/Shared/MyModal.vue";
 import { computed } from "@vue/reactivity";
-import { useCartStore } from "@/store/CartStore";
+import { useCartStore } from "@/stores/cart";
 import type { PropType } from "vue";
 import type { Product } from "@/services/types";
 

@@ -20,7 +20,7 @@
 
 <script lang="ts" setup>
 import ActionButton from "../Shared/ActionButton.vue";
-import { useProductsStore } from "@/store/products";
+import { useProductsStore } from "@/stores/products";
 
 const produtctsStore = useProductsStore();
 

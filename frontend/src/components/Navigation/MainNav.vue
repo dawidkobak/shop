@@ -48,10 +48,10 @@
 </template>
 
 <script lang="ts" setup>
-import ProductSearchForm from "./ProductSearchForm.vue";
-import LogoShop from "./LogoShop.vue";
-import CartIcon from "../Cart/CartIcon.vue";
-import { useCartStore } from "../../store/CartStore";
+import ProductSearchForm from "@/components/Navigation/ProductSearchForm.vue";
+import LogoShop from "@/components/Navigation/LogoShop.vue";
+import CartIcon from "@/components/Cart/CartIcon.vue";
+import { useCartStore } from "@/stores/cart";
 
 const cartStore = useCartStore();
 

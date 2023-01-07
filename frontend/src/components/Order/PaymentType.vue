@@ -26,7 +26,7 @@
 
 <script lang="ts" setup>
 import FormRadio from "@/components/Shared/FormRadioButton.vue";
-import { useOrderStore } from "@/store/OrderStore";
+import { useOrderStore } from "@/stores/orders";
 
 const orderStore = useOrderStore();
 </script>

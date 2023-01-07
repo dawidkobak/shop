@@ -10,13 +10,8 @@ class ProductController @Inject()(
   val controllerComponents: ControllerComponents
 ) extends BaseController {
 
-  def getProducts(limit: Int, page: Int, categories: String, query: String) = Action {
+  def getProducts() = Action {
     implicit request: Request[AnyContent] =>
-      ProductApiHandler.get(limit, page, categories, query)
-  }
-
-  def getAllProducts() = Action {
-    implicit request: Request[AnyContent] =>
-      ProductApiHandler.getAll
+      ProductApiHandler.getProducts
   }
 }
