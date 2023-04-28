@@ -20,15 +20,22 @@
 
 <script lang="ts" setup>
 import { ref } from "vue";
+import { useRouter } from "vue-router";
+
 import ActionButton from "../Shared/ActionButton.vue";
 import TextInput from "../Shared/TextInput.vue";
 import { useProductsStore } from "@/stores/products";
 
+const router = useRouter();
 const productsStore = useProductsStore();
 
 const term = ref("");
 
 function searchForProducts() {
   productsStore.CHANGE_TERM_FOR_QUERY(term.value);
+  router.push({
+    name: "shopView",
+    query: { page: "1", category: "", q: term.value },
+  });
 }
 </script>

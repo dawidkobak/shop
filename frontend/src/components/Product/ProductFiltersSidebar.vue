@@ -19,10 +19,13 @@
 </template>
 
 <script lang="ts" setup>
+import { useRouter } from "vue-router";
+
 import ActionButton from "../Shared/ActionButton.vue";
 import { useProductsStore } from "@/stores/products";
 
 const produtctsStore = useProductsStore();
+const router = useRouter();
 
 const categories = [
   "Wszystkie produkty",
@@ -38,5 +41,6 @@ const categories = [
 
 function changeCategory(category: string) {
   produtctsStore.CHANGE_SELECTED_CATEGORY(category);
+  router.push({ name: "shopView", query: { page: "1", category: category } });
 }
 </script>

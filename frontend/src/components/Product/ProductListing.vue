@@ -15,7 +15,7 @@
         v-if="page != 1"
         :to="{
           name: 'shopView',
-          query: { page: page - 1 },
+          query: { page: page - 1, category },
         }"
         class="sm:text-xl text-sm font-semibold text-brand-green-2 mb-10"
         >Poprzednia strona</router-link
@@ -24,7 +24,7 @@
         v-if="hasNextPage"
         :to="{
           name: 'shopView',
-          query: { page: page + 1 },
+          query: { page: page + 1, category },
         }"
         class="sm:text-xl text-sm font-semibold text-brand-green-2 ml-10 mb-10"
         >Następna strona</router-link
@@ -47,6 +47,9 @@ const productsStore = useProductsStore();
 const perPage = 10;
 const page = computed(() => {
   return parseInt(route.query.page as string) || 1;
+});
+const category = computed(() => {
+  return route?.query?.category?.toString() || "";
 });
 const hasNextPage = computed(() => {
   return FILTERED_PRODUCTS.value.length > page.value * perPage;
