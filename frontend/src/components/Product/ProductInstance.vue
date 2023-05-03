@@ -66,7 +66,7 @@ const props = defineProps({
 });
 
 const cartStore = useCartStore();
-let areDetailsVisible = ref(false);
+const areDetailsVisible = ref(false);
 
 const product = computed(() => {
   const item = cartStore.cartItems.find(
