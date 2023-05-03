@@ -1,17 +1,14 @@
 import { defineStore } from "pinia";
 import { computed, ref } from "vue";
-import { useRoute } from "vue-router";
 
 import type { Product } from "@/services/types";
 import { getAllProducts } from "@/services/ProductService";
 
-const route = useRoute();
-
 export const useProductsStore = defineStore("products", () => {
   const products = ref<Product[]>([]);
   const totalProducts = ref(0);
-  const selectedCategory = ref(route?.params?.category.toString() || "");
-  const termForQuery = ref(route?.params?.q.toString() || "");
+  const selectedCategory = ref("");
+  const termForQuery = ref("");
 
   const FETCH_PRODUCTS = async () => {
     const receivedProducts = await getAllProducts();
@@ -21,12 +18,10 @@ export const useProductsStore = defineStore("products", () => {
 
   const CHANGE_SELECTED_CATEGORY = (category: string) => {
     selectedCategory.value = category;
-    termForQuery.value = "";
   };
 
   const CHANGE_TERM_FOR_QUERY = (term: string) => {
     termForQuery.value = term;
-    selectedCategory.value = "";
   };
 
   const FILTERED_PRODUCTS = computed(() => {
@@ -56,5 +51,8 @@ export const useProductsStore = defineStore("products", () => {
     CHANGE_SELECTED_CATEGORY,
     CHANGE_TERM_FOR_QUERY,
     totalProducts,
+    selectedCategory,
+    termForQuery,
+    products,
   };
 });

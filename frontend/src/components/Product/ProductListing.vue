@@ -51,11 +51,18 @@ const page = computed(() => {
 const category = computed(() => {
   return route?.query?.category?.toString() || "";
 });
+const term = computed(() => {
+  return route?.query?.q?.toString() || "";
+});
 const hasNextPage = computed(() => {
   return FILTERED_PRODUCTS.value.length > page.value * perPage;
 });
 
-onMounted(productsStore.FETCH_PRODUCTS);
+onMounted(async () => {
+  await productsStore.FETCH_PRODUCTS();
+  productsStore.CHANGE_SELECTED_CATEGORY(category.value);
+  productsStore.CHANGE_TERM_FOR_QUERY(term.value);
+});
 
 const FILTERED_PRODUCTS = computed(() => productsStore.FILTERED_PRODUCTS);
 

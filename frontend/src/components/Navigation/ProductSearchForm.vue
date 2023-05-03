@@ -33,6 +33,7 @@ const term = ref("");
 
 function searchForProducts() {
   productsStore.CHANGE_TERM_FOR_QUERY(term.value);
+  productsStore.CHANGE_SELECTED_CATEGORY("");
   router.push({
     name: "shopView",
     query: { page: "1", category: "", q: term.value },

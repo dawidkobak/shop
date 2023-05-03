@@ -41,6 +41,7 @@ const categories = [
 
 function changeCategory(category: string) {
   produtctsStore.CHANGE_SELECTED_CATEGORY(category);
+  produtctsStore.CHANGE_TERM_FOR_QUERY("");
   router.push({ name: "shopView", query: { page: "1", category: category } });
 }
 </script>
