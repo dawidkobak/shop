@@ -19,6 +19,7 @@
 </template>
 
 <script lang="ts" setup>
+import { computed, ref, watch, toRef } from "vue";
 import { useRouter } from "vue-router";
 
 import ActionButton from "../Shared/ActionButton.vue";
@@ -27,17 +28,13 @@ import { useProductsStore } from "@/stores/products";
 const produtctsStore = useProductsStore();
 const router = useRouter();
 
-const categories = [
-  "Wszystkie produkty",
-  "Warzywa",
-  "Owoce",
-  "Nabiał",
-  "Napoje",
-  "Alkohole",
-  "Pieczywo",
-  "Słodycze",
-  "Przekąski",
-];
+const productCategoires = computed(() => produtctsStore.UNIQUE_CATEGORIES);
+
+watch(productCategoires, () => {
+  categories.value = ["Wszystkie produkty", ...productCategoires.value];
+});
+
+const categories = ref(["Wszystkie produkty", ...productCategoires.value]);
 
 function changeCategory(category: string) {
   produtctsStore.CHANGE_SELECTED_CATEGORY(category);

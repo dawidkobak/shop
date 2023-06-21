@@ -45,6 +45,10 @@ export const useProductsStore = defineStore("products", () => {
       .includes(termForQuery.value.toLowerCase());
   };
 
+  const UNIQUE_CATEGORIES = computed(() => {
+    return new Set(products.value.map((p) => p.categories[0]));
+  });
+
   return {
     FILTERED_PRODUCTS,
     FETCH_PRODUCTS,
@@ -54,5 +58,6 @@ export const useProductsStore = defineStore("products", () => {
     selectedCategory,
     termForQuery,
     products,
+    UNIQUE_CATEGORIES,
   };
 });
