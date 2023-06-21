@@ -94,7 +94,7 @@ async function getClientLocation() {
   );
   clientLocation.value = response.data;
 }
-
+``;
 async function getRouteToClient() {
   const response = await ClientService.getRoute(
     shopLocation.value,

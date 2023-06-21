@@ -798,5 +798,21 @@
     "price": 23.99,
     "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0100_carlo_rossi_ruby_moscato.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
+  },
+  {
+    "_id": "635d3592ehhabm7e6313b1b3",
+    "name": "Boczek 1 kg",
+    "categories": ["Wędliny"],
+    "price": 29.99,
+    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0101_boczek.jpg",
+    "description": "Producent: Masarnia Wrocanka"
+  },
+  {
+    "_id": "225d35mjuhhcbm7e6313b1b3",
+    "name": "Kiełbasa krakowska 1 kg",
+    "categories": ["Wędliny"],
+    "price": 37.99,
+    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0102_kielbasa_krakowska.jpg",
+    "description": "Producent: Masarnia Wrocanka"
   }
 ]
