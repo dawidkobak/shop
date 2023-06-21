@@ -5,7 +5,7 @@
   >
     <div class="text-xl font-bold text-gray-900 mb-10">
       <p class="float-left">Podsuma:</p>
-      <p class="float-right">{{ cartStore.cartTotal }} zł</p>
+      <p class="float-right">{{ cartStore.cartTotal.toFixed(2) }} zł</p>
     </div>
     <action-button
       v-if="isOrderButtonActive"

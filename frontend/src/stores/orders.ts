@@ -14,6 +14,13 @@ export const useOrderStore = defineStore("orders", () => {
   const notes = ref(localStorage.getItem("notes") ?? "");
   const paymentType = ref(localStorage.getItem("paymentType") ?? "");
 
+  const currentOrder = ref(localStorage.getItem("currentOrder" ?? "{}"));
+
+  const setCurrentOrder = (value: string) => {
+    localStorage.setItem("currentOrder", value);
+    currentOrder.value = value;
+  };
+
   const setFristName = (value: string) => {
     localStorage.setItem("firstName", value);
     firstName.value = value;
@@ -92,5 +99,7 @@ export const useOrderStore = defineStore("orders", () => {
     setEmail,
     setNotes,
     setPaymentType,
+    currentOrder,
+    setCurrentOrder,
   };
 });

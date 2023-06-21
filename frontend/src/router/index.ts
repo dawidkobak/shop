@@ -10,6 +10,18 @@ const routes = [
     component: ShopView,
   },
   {
+    path: "/shop/app",
+    redirect: {
+      name: "shop",
+    },
+  },
+  {
+    path: "/shop/app/index.html",
+    redirect: {
+      name: "shop",
+    },
+  },
+  {
     path: "/shop",
     name: "shopView",
     component: ShopView,

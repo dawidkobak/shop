@@ -1,9 +1,7 @@
 import axios from "axios";
-
 import type { Product } from "@/services/types";
 
 const restClient = axios.create({
-  baseURL: "http://localhost:9000",
   withCredentials: false,
   headers: {
     Accept: "application/json",
@@ -12,7 +10,8 @@ const restClient = axios.create({
 });
 
 const getAllProducts = () => {
-  return restClient.get<Product[]>("/product");
+  const productApi = import.meta.env.VITE_PRODUCT_API;
+  return restClient.get(`${productApi}products.json`);
 };
 
 export { getAllProducts };

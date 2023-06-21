@@ -88,9 +88,9 @@ function showRoute() {
 
 async function getClientLocation() {
   const response = await ClientService.getClientLocation(
-    route.query.city,
-    route.query.street,
-    route.query.streetNumber
+    route.query.city as string,
+    route.query.street as string,
+    route.query.streetNumber as string
   );
   clientLocation.value = response.data;
 }
