@@ -1,7 +1,10 @@
 <template>
   <div class="">
-    <fieldset class="block mt-4 pl-2.5">
-      <legend class="text-2xl">Metoda płatności</legend>
+    <fieldset class="block mt-8">
+      <legend class="text-2xl">
+        Metoda płatności
+        <span class="text-red-800">*</span>
+      </legend>
       <form-radio
         id="cdfPaymentCash"
         name="cdfPayment"

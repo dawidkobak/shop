@@ -3,7 +3,7 @@
     <client-data />
     <payment-type />
     <client-consents />
-    <div class="mt-10">
+    <div class="mt-8">
       <p class="text-2xl">
         Wartość koszyka:
         <span class="text-3xl">{{ cartStore.cartTotal.toFixed(2) }} zł</span>

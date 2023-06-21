@@ -39,6 +39,6 @@ const categories = ref(["Wszystkie produkty", ...productCategoires.value]);
 function changeCategory(category: string) {
   produtctsStore.CHANGE_SELECTED_CATEGORY(category);
   produtctsStore.CHANGE_TERM_FOR_QUERY("");
-  router.push({ name: "shopView", query: { page: "1", category: category } });
+  router.push({ name: "shop", query: { page: "1", category: category } });
 }
 </script>

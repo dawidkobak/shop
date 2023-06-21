@@ -4,9 +4,11 @@
       :id="props.id"
       type="checkbox"
       class="mr-1"
-      :required="props.obligatory"
+      :required="props.required"
     />
     {{ props.label }}
+    <slot></slot>
+    <span v-if="props.required" class="text-red-800">*</span>
   </label>
 </template>
 
@@ -22,7 +24,7 @@ const props = defineProps({
     required: false,
     default: "",
   },
-  obligatory: {
+  required: {
     type: Boolean,
     required: false,
     default: true,

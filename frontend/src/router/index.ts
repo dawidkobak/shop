@@ -5,8 +5,12 @@ import OrderDelivery from "@/views/OrderDelivery.vue";
 
 const routes = [
   {
-    path: "/",
+    path: "/shop",
     name: "shop",
+    component: ShopView,
+  },
+  {
+    path: "/",
     component: ShopView,
   },
   {
@@ -20,11 +24,6 @@ const routes = [
     redirect: {
       name: "shop",
     },
-  },
-  {
-    path: "/shop",
-    name: "shopView",
-    component: ShopView,
   },
   {
     path: "/order",

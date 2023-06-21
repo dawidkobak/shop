@@ -13,7 +13,7 @@
             </li>
             <li class="h-full xl:ml-9" data-test="shop-nav">
               <router-link
-                :to="{ name: 'shopView' }"
+                :to="{ name: 'shop' }"
                 class="flex items-center h-full py-2.5"
                 >Sklep</router-link
               >

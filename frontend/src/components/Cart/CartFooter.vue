@@ -29,7 +29,7 @@ const isFooterVisible = computed(() => {
   return cartStore.cartTotal > 0;
 });
 const isOrderButtonActive = computed(() => {
-  return route.name == "shop" || route.name == "shopView";
+  return route.name == "shop";
 });
 
 function handleOrder() {

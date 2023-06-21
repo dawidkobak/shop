@@ -14,7 +14,7 @@
       <router-link
         v-if="page != 1"
         :to="{
-          name: 'shopView',
+          name: 'shop',
           query: { page: page - 1, category },
         }"
         class="sm:text-xl text-sm font-semibold text-brand-green-2 mb-10"
@@ -23,7 +23,7 @@
       <router-link
         v-if="hasNextPage"
         :to="{
-          name: 'shopView',
+          name: 'shop',
           query: { page: page + 1, category },
         }"
         class="sm:text-xl text-sm font-semibold text-brand-green-2 ml-10 mb-10"

@@ -1,19 +1,28 @@
 <template>
-  <label class="block pl-3 text-sm mb-1 mt-2">
-    {{ props.label }}
-  </label>
-  <input
-    :type="props.type"
-    :required="props.obligatory"
-    :value="props.value"
-    :placeholder="props.placeholder"
-    class="pl-2.5 pr-2.5 pt-1 pb-1 focus:outline-none border border-solid border-brand-gray-3 rounded-3xl w-full"
-    @input="handleInput($event)"
-  />
+  <div class="mt-3">
+    <label class="block text-sm font-medium leading-6 text-gray-900">
+      {{ props.label }}
+      <span v-if="props.required" class="text-red-800">*</span>
+    </label>
+    <input
+      :type="props.type"
+      :required="props.required"
+      :value="props.value"
+      :disabled="props.disabled"
+      :placeholder="props.placeholder"
+      class="form-input block w-full rounded-md border-0 py-1.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6"
+      :class="props.styles"
+      @input="handleInput($event)"
+    />
+  </div>
 </template>
 
 <script lang="ts" setup>
 const props = defineProps({
+  modelValue: {
+    type: String,
+    required: false,
+  },
   label: {
     type: String,
     required: true,
@@ -34,18 +43,29 @@ const props = defineProps({
     required: false,
     default: "",
   },
-  obligatory: {
+  required: {
     type: Boolean,
     required: false,
     default: false,
   },
+  disabled: {
+    required: false,
+    type: Boolean,
+    default: false,
+  },
+  styles: {
+    required: false,
+    type: Object,
+    default: {},
+  },
 });
 
-const emit = defineEmits(["updatedInput"]);
+const emit = defineEmits(["updatedInput", "update:modelValue"]);
 
 function handleInput($event: Event) {
   const target = $event.target as HTMLInputElement;
   emit("updatedInput", target.value);
+  emit("update:modelValue", target.value);
 }
 </script>
 
