@@ -4,7 +4,7 @@
     "name": "Truskawki",
     "categories": ["Owoce"],
     "price": 5.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0027_truskawka.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0027_truskawka.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Ogórek",
     "categories": ["Warzywa"],
     "price": 6.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0018_ogorek.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0018_ogorek.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Czekolada mleczna Milka",
     "categories": ["Słodycze"],
     "price": 3.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0063_czekolada_milka.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0063_czekolada_milka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -28,7 +28,7 @@
     "name": "Bagietka",
     "categories": ["Pieczywo"],
     "price": 1.69,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0042_bagietka.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0042_bagietka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -36,7 +36,7 @@
     "name": "Chipsy Chrunchips xcut papryka",
     "categories": ["Przekąski"],
     "price": 6.49,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0050_chipsy_chrunchips_xcut_paprika.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0050_chipsy_chrunchips_xcut_paprika.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -44,7 +44,7 @@
     "name": "Jim Beam Red Stag 0,7l",
     "categories": ["Alkohole"],
     "price": 59.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0068_jimbeam_red_stag_07L.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0068_jimbeam_red_stag_07L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -52,7 +52,7 @@
     "name": "Margaryna Kasia",
     "categories": ["Nabiał"],
     "price": 3.29,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0070_margaryna_kasia.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0070_margaryna_kasia.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -60,7 +60,7 @@
     "name": "Oranżada Hellena 1,25l",
     "categories": ["Napoje"],
     "price": 4.09,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0079_oranzada_hellena.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0079_oranzada_hellena.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -68,7 +68,7 @@
     "name": "Pomidor koktajlowy",
     "categories": ["Warzywa"],
     "price": 14.79,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0002_pomidor_koktajlowy.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0002_pomidor_koktajlowy.jpg",
     "description": "Kraj pochodzenia: Hiszpania"
   },
   {
@@ -76,7 +76,7 @@
     "name": "Banany",
     "categories": ["Owoce"],
     "price": 3.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0028_banan.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0028_banan.jpg",
     "description": "Kraj pochodzenia: Kolumbia"
   },
   {
@@ -84,7 +84,7 @@
     "name": "Ziemniaki",
     "categories": ["Warzywa"],
     "price": 1.79,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0003_ziemniaki_mlode.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0003_ziemniaki_mlode.jpg",
     "description": "Kraj pochodzenia: Polska\nOdmiana: SORAYA"
   },
   {
@@ -92,7 +92,7 @@
     "name": "Seler",
     "categories": ["Warzywa"],
     "price": 3.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0004_seler.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0004_seler.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -100,7 +100,7 @@
     "name": "Kalafior",
     "categories": ["Warzywa"],
     "price": 5.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0005_kalafior.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0005_kalafior.jpg",
     "description": "Kraj pochodzenia: Hiszpania"
   },
   {
@@ -108,7 +108,7 @@
     "name": "Rzodkiew",
     "categories": ["Warzywa"],
     "price": 1.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0006_rzodkiew.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0006_rzodkiew.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -116,7 +116,7 @@
     "name": "Marchew",
     "categories": ["Warzywa"],
     "price": 2.29,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0007_marchew.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0007_marchew.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -124,7 +124,7 @@
     "name": "Papryka czerwona",
     "categories": ["Warzywa"],
     "price": 7.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0008_papryka_czerwona.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0008_papryka_czerwona.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -132,7 +132,7 @@
     "name": "Cebula",
     "categories": ["Warzywa"],
     "price": 2.49,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0009_cebula.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0009_cebula.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -140,7 +140,7 @@
     "name": "Czosnek",
     "categories": ["Warzywa"],
     "price": 1.79,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0010_czosnek.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0010_czosnek.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -148,7 +148,7 @@
     "name": "Sałata",
     "categories": ["Warzywa"],
     "price": 4.39,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0011_salata.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0011_salata.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -156,7 +156,7 @@
     "name": "Sałata lodowa",
     "categories": ["Warzywa"],
     "price": 4.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0012_salata_lodowa.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0012_salata_lodowa.jpg",
     "description": "Kraj pochodzenia: Hiszpania"
   },
   {
@@ -164,7 +164,7 @@
     "name": "Kapusta pekińska",
     "categories": ["Warzywa"],
     "price": 5.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0013_kapusta_pekinska.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0013_kapusta_pekinska.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -172,7 +172,7 @@
     "name": "Cukinia",
     "categories": ["Warzywa"],
     "price": 7.29,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0014_cukinia.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0014_cukinia.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -180,7 +180,7 @@
     "name": "Bakłażan",
     "categories": ["Warzywa"],
     "price": 8.49,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0015_baklazan.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0015_baklazan.jpg",
     "description": "Kraj pochodzenia: Hiszpania"
   },
   {
@@ -188,7 +188,7 @@
     "name": "Brokuły",
     "categories": ["Warzywa"],
     "price": 10.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0016_brokuly.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0016_brokuly.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -196,7 +196,7 @@
     "name": "Koper",
     "categories": ["Warzywa"],
     "price": 1.39,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0017_koper.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0017_koper.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -204,7 +204,7 @@
     "name": "Ogórek szklarniowy",
     "categories": ["Warzywa"],
     "price": 7.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0019_ogorek_szklarniowy.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0019_ogorek_szklarniowy.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -212,7 +212,7 @@
     "name": "Szczypiorek",
     "categories": ["Warzywa"],
     "price": 1.19,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0020_szczypiorek.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0020_szczypiorek.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -220,7 +220,7 @@
     "name": "Fasola",
     "categories": ["Warzywa"],
     "price": 3.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0021_fasola.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0021_fasola.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -228,7 +228,7 @@
     "name": "Chilli",
     "categories": ["Warzywa"],
     "price": 11.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0022_chilli.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0022_chilli.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -236,7 +236,7 @@
     "name": "Pomidor",
     "categories": ["Warzywa"],
     "price": 3.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0001_pomidor.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0001_pomidor.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -244,7 +244,7 @@
     "name": "Jabłka",
     "categories": ["Owoce"],
     "price": 1.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0023_jablko.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0023_jablko.jpg",
     "description": "Kraj pochodzenia: Polska\nOdmiana: Ligol"
   },
   {
@@ -252,7 +252,7 @@
     "name": "Gruszki",
     "categories": ["Owoce"],
     "price": 2.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0024_gruszka.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0024_gruszka.jpg",
     "description": "Kraj pochodzenia: Polska\nOdmiana: Lukasówka\nKaliber 70-80"
   },
   {
@@ -260,7 +260,7 @@
     "name": "Pomarańcze",
     "categories": ["Owoce"],
     "price": 4.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0025_pomarancza.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0025_pomarancza.jpg",
     "description": "Kraj pochodzenia: Hiszpania\nOdmiana Valencia"
   },
   {
@@ -268,7 +268,7 @@
     "name": "Mandarynki",
     "categories": ["Owoce"],
     "price": 6.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0026_mandarynki.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0026_mandarynki.jpg",
     "description": "Kraj pochodzenia: Hiszpania\nSłodkie i soczyste. Niewielka ilość pestek."
   },
   {
@@ -276,7 +276,7 @@
     "name": "Brzoskwinia",
     "categories": ["Owoce"],
     "price": 5.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0029_brzoskwinia.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0029_brzoskwinia.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -284,7 +284,7 @@
     "name": "Ananas",
     "categories": ["Owoce"],
     "price": 8.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0030_ananas.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0030_ananas.jpg",
     "description": "Kraj pochodzenia: Kostaryka"
   },
   {
@@ -292,7 +292,7 @@
     "name": "Kiwi",
     "categories": ["Owoce"],
     "price": 11.49,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0031_kiwi.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0031_kiwi.jpg",
     "description": "Kraj pochodzenia: Grecja"
   },
   {
@@ -300,7 +300,7 @@
     "name": "Grejpfrut",
     "categories": ["Owoce"],
     "price": 4.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0032_grejpfrut.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0032_grejpfrut.jpg",
     "description": "Kraj pochodzenia: Hiszpania"
   },
   {
@@ -308,7 +308,7 @@
     "name": "Mango",
     "categories": ["Owoce"],
     "price": 8.19,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0033_mango.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0033_mango.jpg",
     "description": "Kraj pochodzenia: Brazylia\nDuże owoce"
   },
   {
@@ -316,7 +316,7 @@
     "name": "Limonka",
     "categories": ["Owoce"],
     "price": 7.19,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0034_limonka.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0034_limonka.jpg",
     "description": "Kraj pochodzenia: Włochy"
   },
   {
@@ -324,7 +324,7 @@
     "name": "Winogrono białe",
     "categories": ["Owoce"],
     "price": 14.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0035_winogrono_biale.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0035_winogrono_biale.jpg",
     "description": "Kraj pochodzenia: Turcja\nBezpestkowe"
   },
   {
@@ -332,7 +332,7 @@
     "name": "Winogrono czerwone",
     "categories": ["Owoce"],
     "price": 15.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0036_winogrono_czerwone.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0036_winogrono_czerwone.jpg",
     "description": "Kraj pochodzenia: Brazylia\nBezpestkowe"
   },
   {
@@ -340,7 +340,7 @@
     "name": "Orzechy laskowe",
     "categories": ["Owoce"],
     "price": 21.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0037_orzech_laskowy.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0037_orzech_laskowy.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -348,7 +348,7 @@
     "name": "Orzechy włoskie",
     "categories": ["Owoce"],
     "price": 19.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0038_orzech_wloski.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0038_orzech_wloski.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -356,7 +356,7 @@
     "name": "Rukola",
     "categories": ["Warzywa"],
     "price": 24.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0039_rukola.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0039_rukola.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -364,7 +364,7 @@
     "name": "Szpinak",
     "categories": ["Warzywa"],
     "price": 29.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0040_szpinak.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0040_szpinak.jpg",
     "description": "Kraj pochodzenia: Polska"
   },
   {
@@ -372,7 +372,7 @@
     "name": "7 up",
     "categories": ["Napoje"],
     "price": 6.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0041_7up_15L.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0041_7up_15L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -380,7 +380,7 @@
     "name": "Baton 3Bit",
     "categories": ["Słodycze"],
     "price": 1.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0043_baton_3bit.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0043_baton_3bit.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -388,7 +388,7 @@
     "name": "Bułka czosnkowa",
     "categories": ["Pieczywo"],
     "price": 1.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0044_bulka_czosnkowa.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0044_bulka_czosnkowa.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -396,7 +396,7 @@
     "name": "Bułka śniadaniowa",
     "categories": ["Pieczywo"],
     "price": 0.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0045_bulka_sniadaniowa.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0045_bulka_sniadaniowa.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -404,7 +404,7 @@
     "name": "Bułka śniadaniowa",
     "categories": ["Pieczywo"],
     "price": 0.89,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0046_bulka2.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0046_bulka2.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -412,7 +412,7 @@
     "name": "Cechini Muszyna 1,5l",
     "categories": ["Napoje"],
     "price": 2.19,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0047_cechini_muszyna_15L.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0047_cechini_muszyna_15L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -420,7 +420,7 @@
     "name": "Chipsy Chrunchips papryka",
     "categories": ["Przekąski"],
     "price": 5.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0048_chipsy_chrunchips_paprika.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0048_chipsy_chrunchips_paprika.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -428,7 +428,7 @@
     "name": "Chipsy Chrunchips sticks ketchup",
     "categories": ["Przekąski"],
     "price": 4.49,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0049_chipsy_chrunchips_sticks_ketchup.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0049_chipsy_chrunchips_sticks_ketchup.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -436,7 +436,7 @@
     "name": "Chipsy Chrunchips xcut ser cebula",
     "categories": ["Przekąski"],
     "price": 6.49,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0051_chipsy_chrunchips_xcut_ser_cebula.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0051_chipsy_chrunchips_xcut_ser_cebula.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -444,7 +444,7 @@
     "name": "Chipsy Monser munch papryka",
     "categories": ["Przekąski"],
     "price": 4.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0052_chipsy_monster_munch_paprika.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0052_chipsy_monster_munch_paprika.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -452,7 +452,7 @@
     "name": "Chipsy Monser munch",
     "categories": ["Przekąski"],
     "price": 4.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0053_chipsy_monster_munch.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0053_chipsy_monster_munch.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -460,7 +460,7 @@
     "name": "Bułka grahamka",
     "categories": ["Pieczywo"],
     "price": 0.69,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0054_bulka_grahamka.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0054_bulka_grahamka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -468,7 +468,7 @@
     "name": "Chleb rodzinny",
     "categories": ["Pieczywo"],
     "price": 4.39,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0055_chleb_rodzinny.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0055_chleb_rodzinny.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -476,7 +476,7 @@
     "name": "Chleb słonecznikowy",
     "categories": ["Pieczywo"],
     "price": 2.55,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0056_chleb_slonecznikowy.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0056_chleb_slonecznikowy.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -484,7 +484,7 @@
     "name": "Bułka orkiszowa",
     "categories": ["Pieczywo"],
     "price": 1.55,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0057_bulka_orkiszowa.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0057_bulka_orkiszowa.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -492,7 +492,7 @@
     "name": "Cisowianka niegazowana 1,5l",
     "categories": ["Napoje"],
     "price": 1.79,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0058_cisowianka_15L.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0058_cisowianka_15L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -500,7 +500,7 @@
     "name": "Coca-cola 0,5l",
     "categories": ["Napoje"],
     "price": 3.79,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0059_coca-cola_05L.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0059_coca-cola_05L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -508,7 +508,7 @@
     "name": "Coca-cola 0,33l",
     "categories": ["Napoje"],
     "price": 2.39,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0060_coca-cola_puszka_mala.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0060_coca-cola_puszka_mala.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -516,7 +516,7 @@
     "name": "Czekolada biała Milka",
     "categories": ["Słodycze"],
     "price": 4.29,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0061_czekolada_biala_milka.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0061_czekolada_biala_milka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -524,7 +524,7 @@
     "name": "Czekolada gorzka Wedel",
     "categories": ["Słodycze"],
     "price": 3.59,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0062_czekolada_gorzka_wedel.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0062_czekolada_gorzka_wedel.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -532,7 +532,7 @@
     "name": "Kinder czekolada",
     "categories": ["Słodycze"],
     "price": 4.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0064_czekoladki_kinder.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0064_czekoladki_kinder.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -540,7 +540,7 @@
     "name": "Margaryna Delma",
     "categories": ["Nabiał"],
     "price": 4.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0065_margaryna_delma.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0065_margaryna_delma.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -548,7 +548,7 @@
     "name": "Flora Pro-Active",
     "categories": ["Nabiał"],
     "price": 14.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0066_flora_proactive.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0066_flora_proactive.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -556,7 +556,7 @@
     "name": "Jajka 20 szt.",
     "categories": ["Nabiał"],
     "price": 15.69,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0067_jajka.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0067_jajka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -564,7 +564,7 @@
     "name": "Kinder Bueno white",
     "categories": ["Słodycze"],
     "price": 2.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0069_kinder_bueno_white.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0069_kinder_bueno_white.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -572,7 +572,7 @@
     "name": "Margaryna Palma",
     "categories": ["Nabiał"],
     "price": 2.75,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0071_margaryna_palma.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0071_margaryna_palma.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -580,7 +580,7 @@
     "name": "Masło Pasłęcki miks",
     "categories": ["Nabiał"],
     "price": 6.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0072_maslo_miks_paslek.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0072_maslo_miks_paslek.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -588,7 +588,7 @@
     "name": "Masło Mlekovita Polskie",
     "categories": ["Nabiał"],
     "price": 7.49,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0073_maslo_mlekowita.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0073_maslo_mlekowita.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -596,7 +596,7 @@
     "name": "Merci",
     "categories": ["Słodycze"],
     "price": 17.49,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0074_merci.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0074_merci.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -604,7 +604,7 @@
     "name": "Mirinda 1l",
     "categories": ["Napoje"],
     "price": 4.49,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0075_mirinda_1L.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0075_mirinda_1L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -612,7 +612,7 @@
     "name": "Muszynianka 1,5l",
     "categories": ["Napoje"],
     "price": 2.69,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0076_muszynianka_15L.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0076_muszynianka_15L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -620,7 +620,7 @@
     "name": "Nałęczowianka gazowana 1,5l",
     "categories": ["Napoje"],
     "price": 2.19,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0077_naleczowianka_15L_1.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0077_naleczowianka_15L_1.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -628,7 +628,7 @@
     "name": "Nałęczowianka niegazowana 1,5l",
     "categories": ["Napoje"],
     "price": 2.09,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0078_naleczowianka_15L.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0078_naleczowianka_15L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -636,7 +636,7 @@
     "name": "Pepsi Max 0,33l",
     "categories": ["Napoje"],
     "price": 2.09,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0080_pepsi_max_puszka_mala.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0080_pepsi_max_puszka_mala.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -644,7 +644,7 @@
     "name": "Pepsi 0,33l",
     "categories": ["Napoje"],
     "price": 2.09,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0081_pepsi_puszka_mala.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0081_pepsi_puszka_mala.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -652,7 +652,7 @@
     "name": "Piwo Carlsberg 0,5l",
     "categories": ["Alkohole"],
     "price": 3.79,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0082_piwo_carlsberg_puszka.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0082_piwo_carlsberg_puszka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -660,7 +660,7 @@
     "name": "Piwo Harnaś 0,5l",
     "categories": ["Alkohole"],
     "price": 3.19,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0083_piwo_harnas_puszka.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0083_piwo_harnas_puszka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -668,7 +668,7 @@
     "name": "Piwo Tatra 0,5l",
     "categories": ["Alkohole"],
     "price": 3.29,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0084_piwo_tatra_puszka.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0084_piwo_tatra_puszka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -676,7 +676,7 @@
     "name": "Piwo Tyskie 0,5l",
     "categories": ["Alkohole"],
     "price": 3.39,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0085_piwo_tyskie_puszka.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0085_piwo_tyskie_puszka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -684,7 +684,7 @@
     "name": "Piwo Zatecky 0,5l",
     "categories": ["Alkohole"],
     "price": 3.39,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0086-piwo_zatecky_puszka.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0086-piwo_zatecky_puszka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -692,7 +692,7 @@
     "name": "Piwo Żubr 0,5l",
     "categories": ["Alkohole"],
     "price": 3.29,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0087_piwo_zubr_puszka.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0087_piwo_zubr_puszka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -700,7 +700,7 @@
     "name": "Półbagietka",
     "categories": ["Pieczywo"],
     "price": 0.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0088_polbagietka.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0088_polbagietka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -708,7 +708,7 @@
     "name": "Chipsy Pringles papryka",
     "categories": ["Przekąski"],
     "price": 7.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0089_pringles_paprika.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0089_pringles_paprika.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -716,7 +716,7 @@
     "name": "Whisky Jameson 0,7l",
     "categories": ["Alkohole"],
     "price": 64.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0090_whisky-jameson_07L.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0090_whisky-jameson_07L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -724,7 +724,7 @@
     "name": "Rafaello",
     "categories": ["Słodycze"],
     "price": 12.59,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0091_refaello.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0091_refaello.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -732,7 +732,7 @@
     "name": "Sprite 0,5l",
     "categories": ["Napoje"],
     "price": 3.59,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0092_sprite_05L.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0092_sprite_05L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -740,7 +740,7 @@
     "name": "Toffifee",
     "categories": ["Słodycze"],
     "price": 11.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0093_toffifee_24.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0093_toffifee_24.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -748,7 +748,7 @@
     "name": "Whisky Ballantines Finest 1l",
     "categories": ["Alkohole"],
     "price": 54.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0094_whisky_ballantines_finest_1L.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0094_whisky_ballantines_finest_1L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -756,7 +756,7 @@
     "name": "Wódka Wyborowa 0,7l",
     "categories": ["Alkohole"],
     "price": 39.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0095_wodka_wyborowa_07.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0095_wodka_wyborowa_07.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -764,7 +764,7 @@
     "name": "Żywiec Zdrój mocno gazowany 0,5l",
     "categories": ["Napoje"],
     "price": 1.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0096_zywiec_zdroj_mocny_gaz_05.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0096_zywiec_zdroj_mocny_gaz_05.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -772,7 +772,7 @@
     "name": "Żywiec Zdrój mocno gazowany 0,5l",
     "categories": ["Napoje"],
     "price": 1.89,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0097_zywiec_zdroj_mocny_gaz_05L.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0097_zywiec_zdroj_mocny_gaz_05L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -780,7 +780,7 @@
     "name": "Żywiec Zdrój niegazowany 0,5l",
     "categories": ["Napoje"],
     "price": 1.49,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0098_zywiec_zdroj_niegazowany_05L.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0098_zywiec_zdroj_niegazowany_05L.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -788,7 +788,7 @@
     "name": "Wino Carlo Rossi Rose",
     "categories": ["Alkohole"],
     "price": 22.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0099_carlo_rossi_rose.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0099_carlo_rossi_rose.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -796,7 +796,7 @@
     "name": "Wino Carlo Rossi Ruby Mascato",
     "categories": ["Alkohole"],
     "price": 23.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0100_carlo_rossi_ruby_moscato.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0100_carlo_rossi_ruby_moscato.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -804,7 +804,7 @@
     "name": "Boczek 1 kg",
     "categories": ["Wędliny"],
     "price": 29.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0101_boczek.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0101_boczek.jpg",
     "description": "Producent: Masarnia Wrocanka"
   },
   {
@@ -812,7 +812,7 @@
     "name": "Kiełbasa krakowska 1 kg",
     "categories": ["Wędliny"],
     "price": 37.99,
-    "image": "https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/products/0102_kielbasa_krakowska.jpg",
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0102_kielbasa_krakowska.jpg",
     "description": "Producent: Masarnia Wrocanka"
   }
 ]

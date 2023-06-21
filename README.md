@@ -3,7 +3,8 @@
 Simple application with interface in Polish.
 
 ## Demo
-https://dkobak-ns-1.s3.eu-central-1.amazonaws.com/shop/app/index.html
+
+https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/app/index.html
 
 ## Backend
 

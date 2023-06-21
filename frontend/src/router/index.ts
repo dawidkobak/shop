@@ -36,6 +36,11 @@ const routes = [
     component: OrderDelivery,
     props: true,
   },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "NotFound",
+    component: ShopView,
+  },
 ];
 
 const router = createRouter({

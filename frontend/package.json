@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build --base=/shop/app/",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy": "aws s3 sync dist/ s3://dkobak-shop/shop/app --acl public-read",
+    "release": "npm run build && npm run deploy"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
