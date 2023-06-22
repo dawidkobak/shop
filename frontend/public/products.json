@@ -1,36 +1,87 @@
 [
   {
+    "_id": "635d3e92eacab87e6353b16e",
+    "name": "Wódka Wyborowa 0,7l",
+    "categories": ["Alkohole"],
+    "price": 42.99,
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0095_wodka_wyborowa_07.jpg",
+    "description": "Wódka Wyborowa 0,7l 40%"
+  },
+  {
+    "_id": "135d3eb2eacab87e6mm3b16e",
+    "name": "Kiełbasa zwczczajna 1 kg",
+    "categories": ["Wędliny"],
+    "price": 42.99,
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0102_kielbasa_zwyczajna.png",
+    "description": "Producent: Masarnia Dobrucowa. Produkt premium na grilla."
+  },
+  {
     "_id": "635d3e92eacab87e6353b110",
     "name": "Truskawki",
     "categories": ["Owoce"],
-    "price": 5.99,
+    "price": 9.99,
     "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0027_truskawka.jpg",
-    "description": "Kraj pochodzenia: Polska"
+    "description": "Kraj pochodzenia: Polska. Od lokalnych dowstawców."
   },
   {
-    "_id": "635d3e92eacab87e6353b111",
-    "name": "Ogórek",
-    "categories": ["Warzywa"],
-    "price": 6.99,
-    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0018_ogorek.jpg",
-    "description": "Kraj pochodzenia: Polska"
+    "_id": "635d3qq2eacab8742f53b112",
+    "name": "Lays prosto z pieca. 125g",
+    "categories": ["Przekąski"],
+    "price": 7.49,
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0102_lays_prosto_z_pieca.jpg",
+    "description": "Smak paprykowy. Idealne do wódeczki."
   },
   {
     "_id": "635d3e92eacab87e6353b112",
     "name": "Czekolada mleczna Milka",
     "categories": ["Słodycze"],
-    "price": 3.99,
+    "price": 4.89,
     "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0063_czekolada_milka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
+
   {
     "_id": "635d3e92eacab87e6353b113",
-    "name": "Bagietka",
+    "name": "Chleb żytni pytlowy",
     "categories": ["Pieczywo"],
-    "price": 1.69,
-    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0042_bagietka.jpg",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
+    "price": 3.69,
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0104_chleb_zytni_pytlowy.jpg",
+    "description": "Producent: Piekarnia Anwit"
   },
+  {
+    "_id": "635d3e92eacab87e6353b164",
+    "name": "Piwo Tyskie 0,5l",
+    "categories": ["Alkohole"],
+    "price": 3.39,
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0085_piwo_tyskie_puszka.jpg",
+    "description": "Piwo Tyskie. 500 ml w puszce."
+  },
+  {
+    "_id": "635d3e92eaca287j6353b164",
+    "name": "Pepsi 2l",
+    "categories": ["Napoje"],
+    "price": 8.99,
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0108_pepsi_2l.jpg",
+    "description": "Pepsi 2l"
+  },
+
+  {
+    "_id": "635d3e92eaqqqqq7e6353b166",
+    "name": "Ser Mlekpol 150g Edam",
+    "categories": ["Nabiał"],
+    "price": 7.29,
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0106_ser_mlekpol.jpg",
+    "description": "Ser Edam, 150g Producent: Mlekpol"
+  },
+  {
+    "_id": "635d3e92eaqqqqq7e6353b166",
+    "name": "Bułka śniadaniowa",
+    "categories": ["Pieczywo"],
+    "price": 6.99,
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0107_kanapkal.jpg",
+    "description": "Bułka z pełnego ziarna, szynka, ser, ogórek, pomidor, sos kanapkowy"
+  },
+
   {
     "_id": "635d3e92eacab87e6353b114",
     "name": "Chipsy Chrunchips xcut papryka",
@@ -136,6 +187,14 @@
     "description": "Kraj pochodzenia: Polska"
   },
   {
+    "_id": "635d3e92eacab87e6353b111",
+    "name": "Ogórek",
+    "categories": ["Warzywa"],
+    "price": 6.99,
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0018_ogorek.jpg",
+    "description": "Kraj pochodzenia: Polska"
+  },
+  {
     "_id": "635d3e92eacab87e6353b121",
     "name": "Czosnek",
     "categories": ["Warzywa"],
@@ -152,6 +211,14 @@
     "description": "Kraj pochodzenia: Polska"
   },
   {
+    "_id": "635d3e92eacab87e6353b166",
+    "name": "Piwo Żubr 0,5l",
+    "categories": ["Alkohole"],
+    "price": 3.29,
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0087_piwo_zubr_puszka.jpg",
+    "description": "Piwo Żubr. 500 ml w puszce"
+  },
+  {
     "_id": "635d3e92eacab87e6353b123",
     "name": "Sałata lodowa",
     "categories": ["Warzywa"],
@@ -166,6 +233,14 @@
     "price": 5.99,
     "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0013_kapusta_pekinska.jpg",
     "description": "Kraj pochodzenia: Polska"
+  },
+  {
+    "_id": "635d3e92eacab87e6353b113",
+    "name": "Bagietka",
+    "categories": ["Pieczywo"],
+    "price": 1.69,
+    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0042_bagietka.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
     "_id": "635d3e92eacab87e6353b125",
@@ -672,27 +747,11 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
-    "_id": "635d3e92eacab87e6353b164",
-    "name": "Piwo Tyskie 0,5l",
-    "categories": ["Alkohole"],
-    "price": 3.39,
-    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0085_piwo_tyskie_puszka.jpg",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
-  },
-  {
     "_id": "635d3e92eacab87e6353b165",
     "name": "Piwo Zatecky 0,5l",
     "categories": ["Alkohole"],
     "price": 3.39,
     "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0086-piwo_zatecky_puszka.jpg",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
-  },
-  {
-    "_id": "635d3e92eacab87e6353b166",
-    "name": "Piwo Żubr 0,5l",
-    "categories": ["Alkohole"],
-    "price": 3.29,
-    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0087_piwo_zubr_puszka.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {
@@ -749,14 +808,6 @@
     "categories": ["Alkohole"],
     "price": 54.99,
     "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0094_whisky_ballantines_finest_1L.jpg",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
-  },
-  {
-    "_id": "635d3e92eacab87e6353b16e",
-    "name": "Wódka Wyborowa 0,7l",
-    "categories": ["Alkohole"],
-    "price": 39.99,
-    "image": "https://dkobak-shop.s3.eu-central-1.amazonaws.com/shop/products/0095_wodka_wyborowa_07.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur."
   },
   {

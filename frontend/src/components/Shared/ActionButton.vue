@@ -35,7 +35,7 @@ button {
 }
 
 .searchCategory {
-  @apply 2xl:w-72 lg:w-44 xl:w-52 lg:py-3 mobile:py-2 my-3 mobile:px-2 lg:text-2xl mobile:text-xs text-white bg-brand-green-2 rounded-full uppercase mb-5 hover:shadow-green whitespace-nowrap;
+  @apply 2xl:w-72 lg:w-44 xl:w-52 lg:py-3 mobile:py-2 my-1 mobile:px-2 lg:text-2xl mobile:text-xs text-white bg-brand-green-2 rounded-full uppercase mb-5 hover:shadow-green whitespace-nowrap;
 }
 
 .order {
