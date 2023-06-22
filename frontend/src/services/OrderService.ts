@@ -37,7 +37,7 @@ export default {
       items,
       notes,
       paymentType,
-      state: "Accepted",
+      state: "InDelivery",
       shipmentType: "Delivery",
     };
     const orderStore = useOrderStore();

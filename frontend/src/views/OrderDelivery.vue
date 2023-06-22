@@ -2,8 +2,8 @@
   <div>
     <GoogleMap
       :api-key="apiKey"
-      class="w-full xl:h-150 h-82"
-      :center="shopLocation"
+      class="w-full xl:h-96 h-82"
+      :center="centerLocation"
       :zoom="13"
     >
       <CustomMarker :options="{ position: shopLocation }">
@@ -33,7 +33,11 @@
       <Polyline v-if="routePath.visible" :options="routePath" />
     </GoogleMap>
     <div class="relative">
-      <countdown-timer v-if="showTimer" :fullTime="time" />
+      <countdown-timer
+        v-if="showTimer"
+        :fullTime="time"
+        @counting-over="showTimer = false"
+      />
     </div>
     <order-summary v-if="orderDetails.client" :data="orderDetails" />
   </div>
@@ -57,6 +61,7 @@ const props = defineProps({
   },
 });
 
+const centerLocation = ref({ lat: 50.08160119196257, lng: 19.951739017193226 });
 const shopLocation = ref({ lat: 50.09160119196257, lng: 19.951739017193226 });
 const clientLocation = ref({ lat: 50.068521667536636, lng: 19.95388576690215 });
 const showClient = ref(false);

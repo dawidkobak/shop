@@ -34,7 +34,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, computed, onMounted, onBeforeUnmount } from "vue";
+import { ref, computed, onMounted, onBeforeUnmount, watch } from "vue";
 
 const props = defineProps({
   fullTime: {
@@ -61,6 +61,12 @@ const currentStrokeDasharray = computed(() => {
   return (remainingTimeInPercent() * FULL_DASH_ARRAY) / 100 + " 283";
 });
 
+watch(timePassed, () => {
+  if (timePassed.value == props.fullTime) {
+    emit("countingOver");
+  }
+});
+
 onMounted(() => {
   timerInterval.value = setInterval(() => {
     timePassed.value += 1;
@@ -75,24 +81,26 @@ onBeforeUnmount(() => {
   clearInterval(timerInterval.value);
 });
 
-function timeLeft() {
+const timeLeft = () => {
   return props.fullTime - timePassed.value;
-}
+};
 
-function formatTime(time: number) {
+const formatTime = (time: number) => {
   const minutes = Math.floor(time / 60);
   return `${minutes} min`;
-}
+};
 
-function remainingTimeInPercent() {
+const remainingTimeInPercent = () => {
   return 100 - (timePassed.value / props.fullTime) * 100;
-}
+};
+
+const emit = defineEmits(["countingOver"]);
 </script>
 
 <style scoped>
 .base-timer {
-  width: 300px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
 }
 
 .base-timer__svg {
@@ -121,13 +129,13 @@ function remainingTimeInPercent() {
 
 .base-timer__label {
   position: absolute;
-  width: 300px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
   top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 48px;
+  font-size: 32px;
 }
 
 .green {
