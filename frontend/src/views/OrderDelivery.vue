@@ -32,10 +32,6 @@
 
       <Polyline v-if="routePath.visible" :options="routePath" />
     </GoogleMap>
-    <button @click="showClientLocation">Pokaż współrzędne klienta</button>
-    <button class="float-right" @click="showRoute">
-      Pokaż drogę do klienta
-    </button>
     <div class="relative">
       <countdown-timer v-if="showTimer" :fullTime="time" />
     </div>
@@ -115,6 +111,8 @@ onMounted(async () => {
   await getOrderDetails();
   await getClientLocation();
   await getRouteToClient();
+  showClientLocation();
+  showRoute();
 });
 </script>
 
